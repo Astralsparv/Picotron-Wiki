@@ -1,8 +1,12 @@
 # Picotron Wiki
 
+## Wiki Information
+
 A likely futile attempt to support the documentation of [Picotron](https://www.lexaloffle.com/picotron.php).
 
-## Information
+Hopefully having a markdown viewer cartridge with the ability to view all of this information within Picotron natively (& any github pages in extension)
+
+## Picotron Information
 
 Information on Picotron can be found [here](information/whatis.md)
 
