@@ -9,6 +9,7 @@ Source: [source.lua](source.lua)
 ## Arguments
 
 ### [options]
+
 Optional arguments for the command
 
 ### `-f`
