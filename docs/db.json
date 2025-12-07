@@ -1,5 +1,31 @@
 [
     {
+        "name": "documenting.md",
+        "path": "/documenting.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "Documenting the Picotron Wiki",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Current Process",
+                        "content": [
+                            "",
+                            "If you would like to add documentation to the Picotron Wiki, please create a pull request.",
+                            "",
+                            "As of writing this, this is a sole person documentation project."
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "README.md",
         "path": "/README.md",
         "data": [
@@ -30,7 +56,7 @@
                         "content": [
                             "",
                             "There is a search engine for the Picotron Wiki.",
-                            "It can be found [here](https://astralsparv.github.io/Picotron-Wiki/)",
+                            "It can be found [here](https://astralsparv.github.io/Picotron-Wiki/`)",
                             ""
                         ],
                         "children": []
@@ -53,32 +79,6 @@
                             "System documentation can be found [here](system/)",
                             "",
                             "Documenting every section of `/system`"
-                        ],
-                        "children": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "documenting.md",
-        "path": "/documenting.md",
-        "data": [
-            {
-                "level": 1,
-                "text": "Documenting the Picotron Wiki",
-                "content": [
-                    ""
-                ],
-                "children": [
-                    {
-                        "level": 2,
-                        "text": "Current Process",
-                        "content": [
-                            "",
-                            "If you would like to add documentation to the Picotron Wiki, please create a pull request.",
-                            "",
-                            "As of writing this, this is a sole person documentation project."
                         ],
                         "children": []
                     }
@@ -413,32 +413,6 @@
     },
     {
         "name": "main.md",
-        "path": "/system/util/pwc/main.md",
-        "data": [
-            {
-                "level": 1,
-                "text": "pwc",
-                "content": [
-                    ""
-                ],
-                "children": [
-                    {
-                        "level": 2,
-                        "text": "Overview",
-                        "content": [
-                            "",
-                            "Returns the current loaded cartridge",
-                            "",
-                            "Source: [source.lua](source.lua)"
-                        ],
-                        "children": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "main.md",
         "path": "/system/util/pwd/main.md",
         "data": [
             {
@@ -454,6 +428,32 @@
                         "content": [
                             "",
                             "Returns the current working path",
+                            "",
+                            "Source: [source.lua](source.lua)"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/pwc/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "pwc",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Returns the current loaded cartridge",
                             "",
                             "Source: [source.lua](source.lua)"
                         ],
@@ -952,49 +952,6 @@
     },
     {
         "name": "main.md",
-        "path": "/system/util/info/main.md",
-        "data": [
-            {
-                "level": 1,
-                "text": "info",
-                "content": [
-                    ""
-                ],
-                "children": [
-                    {
-                        "level": 2,
-                        "text": "Overview",
-                        "content": [
-                            "",
-                            "Displays information about the current loaded cartridge",
-                            "",
-                            "Source: [source.lua](source.lua)",
-                            ""
-                        ],
-                        "children": [
-                            {
-                                "level": 3,
-                                "text": "Information displayed",
-                                "content": [
-                                    "",
-                                    "Path to the cartridge on disk",
-                                    "",
-                                    "Compressed ROM size & compression percentage",
-                                    "",
-                                    "Whether there are unsaved changes",
-                                    "",
-                                    "Shows if there are external changes"
-                                ],
-                                "children": []
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "main.md",
         "path": "/system/util/help/main.md",
         "data": [
             {
@@ -1095,11 +1052,11 @@
     },
     {
         "name": "main.md",
-        "path": "/system/util/edit/main.md",
+        "path": "/system/util/info/main.md",
         "data": [
             {
                 "level": 1,
-                "text": "edit path",
+                "text": "info",
                 "content": [
                     ""
                 ],
@@ -1109,28 +1066,24 @@
                         "text": "Overview",
                         "content": [
                             "",
-                            "Edit the file specified",
-                            "",
-                            "Fails if there is no default program to edit it",
+                            "Displays information about the current loaded cartridge",
                             "",
                             "Source: [source.lua](source.lua)",
-                            ""
-                        ],
-                        "children": []
-                    },
-                    {
-                        "level": 2,
-                        "text": "Arguments",
-                        "content": [
                             ""
                         ],
                         "children": [
                             {
                                 "level": 3,
-                                "text": "path",
+                                "text": "Information displayed",
                                 "content": [
                                     "",
-                                    "Path to the file you want to edit"
+                                    "Path to the cartridge on disk",
+                                    "",
+                                    "Compressed ROM size & compression percentage",
+                                    "",
+                                    "Whether there are unsaved changes",
+                                    "",
+                                    "Shows if there are external changes"
                                 ],
                                 "children": []
                             }
@@ -1221,122 +1174,6 @@
                         "content": [
                             "",
                             "Ability to export from any path, rather than `/ram/cart`"
-                        ],
-                        "children": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "main.md",
-        "path": "/system/util/dir/main.md",
-        "data": [
-            {
-                "level": 1,
-                "text": "dir [path]",
-                "content": [
-                    ""
-                ],
-                "children": [
-                    {
-                        "level": 2,
-                        "text": "Overview",
-                        "content": [
-                            "",
-                            "Identical to `ls`",
-                            "List all files in the directory",
-                            "",
-                            "Defaults to your current working path",
-                            "",
-                            "Source: [source.lua](source.lua)",
-                            ""
-                        ],
-                        "children": []
-                    },
-                    {
-                        "level": 2,
-                        "text": "Arguments",
-                        "content": [
-                            ""
-                        ],
-                        "children": [
-                            {
-                                "level": 3,
-                                "text": "[path]",
-                                "content": [
-                                    "",
-                                    "Optional argument for the path you want to list files of, instead of your current working path"
-                                ],
-                                "children": []
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "main.md",
-        "path": "/system/util/default_app/main.md",
-        "data": [
-            {
-                "level": 1,
-                "text": "default_app",
-                "content": [
-                    ""
-                ],
-                "children": [
-                    {
-                        "level": 2,
-                        "text": "Setting extensions `default_app ext [path_to_program]`",
-                        "content": [
-                            "",
-                            "Sets the default programs for extensions, edits `\"/appdata/system/default_apps.pod\"`",
-                            "",
-                            "Source: [source.lua](source.lua)",
-                            ""
-                        ],
-                        "children": [
-                            {
-                                "level": 3,
-                                "text": "Arguments",
-                                "content": [
-                                    ""
-                                ],
-                                "children": [
-                                    {
-                                        "level": 4,
-                                        "text": "ext",
-                                        "content": [
-                                            "",
-                                            "The extension you would like to set the default app for, e.g: `lua`",
-                                            ""
-                                        ],
-                                        "children": []
-                                    },
-                                    {
-                                        "level": 4,
-                                        "text": "[path_to_program]",
-                                        "content": [
-                                            "",
-                                            "The path to the program that should handle your file.",
-                                            "",
-                                            "Leave blank to remove the default app for the extension",
-                                            ""
-                                        ],
-                                        "children": []
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "level": 2,
-                        "text": "List current extensions `default_app -l`",
-                        "content": [
-                            "",
-                            "Lists all current default extensions you have set"
                         ],
                         "children": []
                     }
@@ -1462,11 +1299,11 @@
     },
     {
         "name": "main.md",
-        "path": "/system/util/config/main.md",
+        "path": "/system/util/dir/main.md",
         "data": [
             {
                 "level": 1,
-                "text": "config [key] [value]",
+                "text": "dir [path]",
                 "content": [
                     ""
                 ],
@@ -1476,7 +1313,10 @@
                         "text": "Overview",
                         "content": [
                             "",
-                            "`config` allows you to edit picotrons system settings (`/appdata/system/settings.pod`)",
+                            "Identical to `ls`",
+                            "List all files in the directory",
+                            "",
+                            "Defaults to your current working path",
                             "",
                             "Source: [source.lua](source.lua)",
                             ""
@@ -1492,144 +1332,57 @@
                         "children": [
                             {
                                 "level": 3,
-                                "text": "battery_saver `boolean`",
+                                "text": "[path]",
                                 "content": [
                                     "",
-                                    "Enable Picotron's battery saver",
-                                    ""
+                                    "Optional argument for the path you want to list files of, instead of your current working path"
                                 ],
                                 "children": []
-                            },
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/edit/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "edit path",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Edit the file specified",
+                            "",
+                            "Fails if there is no default program to edit it",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
                             {
                                 "level": 3,
-                                "text": "blit_720p `boolean`",
+                                "text": "path",
                                 "content": [
                                     "",
-                                    "Use Picotron's 720p mode",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "floppy_windows `nil`",
-                                "content": [
-                                    "",
-                                    "Does absolutely nothing!",
-                                    "",
-                                    "Left in by zep on accident?",
-                                    "",
-                                    "No reference to floppy_windows in /system/",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "fullscreen `boolean`",
-                                "content": [
-                                    "",
-                                    "Fullscreen Picotron in the host OS",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "mute_audio `boolean`",
-                                "content": [
-                                    "",
-                                    "Mute the audio of Picotron",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "network_access `boolean`",
-                                "content": [
-                                    "",
-                                    "Allow Picotron to access your network",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "pixel_perfect `boolean`",
-                                "content": [
-                                    "",
-                                    "Whether Picotron should be scaled up to be pixel perfect",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "rshift_magnify `boolean`",
-                                "content": [
-                                    "",
-                                    "Whether pressing `RIGHT SHIFT` should magnify the area around your cursor",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "snap_to-grid `boolean`",
-                                "content": [
-                                    "",
-                                    "Files on the desktop snapping to a grid",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "sparkles `boolean`",
-                                "content": [
-                                    "",
-                                    "Sparkles follow the cursor",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "stretch `boolean`",
-                                "content": [
-                                    "",
-                                    "Stretch the Picotron screen to fill the entirity of your native screen",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "swap_stereo `boolean`",
-                                "content": [
-                                    "",
-                                    "Swap the sides of your stereo audio",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "theme `string (filepath)`",
-                                "content": [
-                                    "",
-                                    "Path to a .theme file",
-                                    ""
-                                ],
-                                "children": []
-                            },
-                            {
-                                "level": 3,
-                                "text": "wallpaper `string (filepath)`",
-                                "content": [
-                                    "",
-                                    "Path to a picotron cartridge"
+                                    "Path to the file you want to edit"
                                 ],
                                 "children": []
                             }
@@ -1657,154 +1410,70 @@
         ]
     },
     {
-        "name": "whatis.md",
-        "path": "/information/whatis.md",
+        "name": "main.md",
+        "path": "/system/util/default_app/main.md",
         "data": [
             {
-                "level": 3,
-                "text": "from the [main page](https://www.lexaloffle.com/picotron.php)",
-                "content": [
-                    ""
-                ],
-                "children": []
-            },
-            {
                 "level": 1,
-                "text": "What is Picotron?",
-                "content": [
-                    "",
-                    "Picotron is a Fantasy Workstation: a self-contained creative environment built for imaginary hardware. Create and share cute Lua apps that can run on the Picotron desktop, be shared as cartridge files, or exported as stand-alone HTML and binary distributables.",
-                    ""
-                ],
-                "children": []
-            },
-            {
-                "level": 1,
-                "text": "Specifications",
+                "text": "default_app",
                 "content": [
                     ""
                 ],
                 "children": [
                     {
                         "level": 2,
-                        "text": "Display: 480x270",
+                        "text": "Setting extensions `default_app ext [path_to_program]`",
                         "content": [
                             "",
-                            "Picotron comes with a 480x270 64-colour display, which can also run at 240x135 or 160x90 and with custom palettes in fullscreen mode. The built-in graphics api gives versatile low-level access to the display, with features like 8x8 fill patterns, palette swapping and blending, stencil bits and tline3d for rasterizing perspective correct textures.",
+                            "Sets the default programs for extensions, edits `\"/appdata/system/default_apps.pod\"`",
+                            "",
+                            "Source: [source.lua](source.lua)",
                             ""
                         ],
-                        "children": []
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "Arguments",
+                                "content": [
+                                    ""
+                                ],
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "text": "ext",
+                                        "content": [
+                                            "",
+                                            "The extension you would like to set the default app for, e.g: `lua`",
+                                            ""
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "level": 4,
+                                        "text": "[path_to_program]",
+                                        "content": [
+                                            "",
+                                            "The path to the program that should handle your file.",
+                                            "",
+                                            "Leave blank to remove the default app for the extension",
+                                            ""
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "level": 2,
-                        "text": "Cosy Filesystem",
+                        "text": "List current extensions `default_app -l`",
                         "content": [
                             "",
-                            "Picotron uses a virtual filesystem that only exposes parts of your host system as needed. All files inside Picotron are in a special format (POD: Picotron Object Data) that allows Lua tables to be directly stored and fetched from disk. Storing data like save games and level data is simple: bundle everything into a Lua table and store() it as a pod.",
-                            ""
-                        ],
-                        "children": []
-                    },
-                    {
-                        "level": 2,
-                        "text": "Audio: PFX6416",
-                        "content": [
-                            "",
-                            "All of the audio in Picotron is generated in realtime by a purpose-built 64-node, 16 channel synthesizer called PFX6416. Nodes can either generate a signal from a wavetable, or modify it using FM/RING modulation, delay, HP/LP resonant filters and wave-shaping. Instruments and music/tracker data in Picotron are extremely tiny on disk; a piece of music with custom instrument design can be stored in 5~20k.",
-                            ""
-                        ],
-                        "children": []
-                    },
-                    {
-                        "level": 2,
-                        "text": "8M inst/sec",
-                        "content": [
-                            "",
-                            "Picotron uses a separate (slightly modified) Lua 5.4 vm per \"process\", and virtual cpu is divided up between processes for a maximum of 8M vm instructions per second. This means that Picotron cartridges can run at a consistent speed across varying platforms; if it runs ok on a high-end desktop machine, it will look roughly the same running under web on an old netbook.",
-                            ""
-                        ],
-                        "children": []
-                    },
-                    {
-                        "level": 2,
-                        "text": "256K Cartridges",
-                        "content": [
-                            "",
-                            "Applications, projects and distributable bundles are all the same type of thing in Picotron: a cartridge. Each cartridge acts like a regular folder and contains all of the source files and resources needed to run the program. On the host system it is stored as a single git-friendly text file (.p64: any size that fits in ram), or a shareable png format (.p64.png: max 256k of ROM data).",
-                            ""
+                            "Lists all current default extensions you have set"
                         ],
                         "children": []
                     }
                 ]
-            },
-            {
-                "level": 1,
-                "text": "More information",
-                "content": [
-                    ""
-                ],
-                "children": [
-                    {
-                        "level": 2,
-                        "text": "Fantasy Desktop",
-                        "content": [
-                            "",
-                            "![Fantasy Desktop](https://www.lexaloffle.com/gfx/fantasy_desktop.gif)",
-                            "",
-                            "Picotron comes with a cute desktop interface featuring tabbed workspaces and a fold-out tooltray that is accessible from any workspace. The tooltray acts as a second desktop for handy access to frequently used files and widgets. Files can also be dropped on top of each other to form tidy stacks that are shuffleable with the mousewheel.",
-                            ""
-                        ],
-                        "children": []
-                    },
-                    {
-                        "level": 2,
-                        "text": "Bundled Tools",
-                        "content": [
-                            "",
-                            "![Bundled Tools](https://www.lexaloffle.com/gfx/picotron_bamboo.gif)",
-                            "",
-                            "Use the built-in editors or create your own! The included editors for code, graphics, tile maps, music and sound effects are themselves all made in Picotron and use standard /system/lib libraries for handling things like unlimited undo stacks, gui, and file management.",
-                            ""
-                        ],
-                        "children": []
-                    },
-                    {
-                        "level": 2,
-                        "text": "Customise your Workstation",
-                        "content": [
-                            "",
-                            "![Picotron Desktop](https://www.lexaloffle.com/dl/wip/picotron_desktop2.png)",
-                            "",
-                            "Make your own live wallpapers, screensavers, icons, widgets, and set up workflows just the way you like! Or have a look around the BBS to see what other cartridge authors are up to.",
-                            "",
-                            "> Example Wallpaper by [castpixel](https://twitter.com/castpixel)",
-                            ""
-                        ],
-                        "children": []
-                    },
-                    {
-                        "level": 2,
-                        "text": "Next Generation Fantasy Hardware",
-                        "content": [
-                            "",
-                            "![Picotron Bunny](https://www.lexaloffle.com/gfx/picotron_bunny.gif)",
-                            "",
-                            "Picotron is built on tightly integrated, flexible graphics and audio pipelines that can happily run on low powered host machines and web. They each come with a simple-to-use API for handling common things like drawing a colour-swapped sprite or triggering a sound effect, but the underlying data and machine state is all exposed in virtual RAM, offering a myriad of possibilities for those willing to venture down the rabbithole.",
-                            ""
-                        ],
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "level": 1,
-                "text": "Status: Alpha",
-                "content": [
-                    "Picotron 0.2 is still new, but has a relatively complete API, binary and HTML exporters and BBS cartridge browsing. See the roadmap for future plans:",
-                    "",
-                    "[Roadmap](roadmap.md)"
-                ],
-                "children": []
             }
         ]
     },
@@ -2016,6 +1685,843 @@
                             "// Exported runtime licensing is TBD, but the focus will be on allowing cart authors to",
                             "",
                             "// implement additional platform support or custom features for their own projects."
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "whatis.md",
+        "path": "/information/whatis.md",
+        "data": [
+            {
+                "level": 3,
+                "text": "from the [main page](https://www.lexaloffle.com/picotron.php)",
+                "content": [
+                    ""
+                ],
+                "children": []
+            },
+            {
+                "level": 1,
+                "text": "What is Picotron?",
+                "content": [
+                    "",
+                    "Picotron is a Fantasy Workstation: a self-contained creative environment built for imaginary hardware. Create and share cute Lua apps that can run on the Picotron desktop, be shared as cartridge files, or exported as stand-alone HTML and binary distributables.",
+                    ""
+                ],
+                "children": []
+            },
+            {
+                "level": 1,
+                "text": "Specifications",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Display: 480x270",
+                        "content": [
+                            "",
+                            "Picotron comes with a 480x270 64-colour display, which can also run at 240x135 or 160x90 and with custom palettes in fullscreen mode. The built-in graphics api gives versatile low-level access to the display, with features like 8x8 fill patterns, palette swapping and blending, stencil bits and tline3d for rasterizing perspective correct textures.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Cosy Filesystem",
+                        "content": [
+                            "",
+                            "Picotron uses a virtual filesystem that only exposes parts of your host system as needed. All files inside Picotron are in a special format (POD: Picotron Object Data) that allows Lua tables to be directly stored and fetched from disk. Storing data like save games and level data is simple: bundle everything into a Lua table and store() it as a pod.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Audio: PFX6416",
+                        "content": [
+                            "",
+                            "All of the audio in Picotron is generated in realtime by a purpose-built 64-node, 16 channel synthesizer called PFX6416. Nodes can either generate a signal from a wavetable, or modify it using FM/RING modulation, delay, HP/LP resonant filters and wave-shaping. Instruments and music/tracker data in Picotron are extremely tiny on disk; a piece of music with custom instrument design can be stored in 5~20k.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "8M inst/sec",
+                        "content": [
+                            "",
+                            "Picotron uses a separate (slightly modified) Lua 5.4 vm per \"process\", and virtual cpu is divided up between processes for a maximum of 8M vm instructions per second. This means that Picotron cartridges can run at a consistent speed across varying platforms; if it runs ok on a high-end desktop machine, it will look roughly the same running under web on an old netbook.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "256K Cartridges",
+                        "content": [
+                            "",
+                            "Applications, projects and distributable bundles are all the same type of thing in Picotron: a cartridge. Each cartridge acts like a regular folder and contains all of the source files and resources needed to run the program. On the host system it is stored as a single git-friendly text file (.p64: any size that fits in ram), or a shareable png format (.p64.png: max 256k of ROM data).",
+                            ""
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "level": 1,
+                "text": "More information",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Fantasy Desktop",
+                        "content": [
+                            "",
+                            "![Fantasy Desktop](https://www.lexaloffle.com/gfx/fantasy_desktop.gif)",
+                            "",
+                            "Picotron comes with a cute desktop interface featuring tabbed workspaces and a fold-out tooltray that is accessible from any workspace. The tooltray acts as a second desktop for handy access to frequently used files and widgets. Files can also be dropped on top of each other to form tidy stacks that are shuffleable with the mousewheel.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Bundled Tools",
+                        "content": [
+                            "",
+                            "![Bundled Tools](https://www.lexaloffle.com/gfx/picotron_bamboo.gif)",
+                            "",
+                            "Use the built-in editors or create your own! The included editors for code, graphics, tile maps, music and sound effects are themselves all made in Picotron and use standard /system/lib libraries for handling things like unlimited undo stacks, gui, and file management.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Customise your Workstation",
+                        "content": [
+                            "",
+                            "![Picotron Desktop](https://www.lexaloffle.com/dl/wip/picotron_desktop2.png)",
+                            "",
+                            "Make your own live wallpapers, screensavers, icons, widgets, and set up workflows just the way you like! Or have a look around the BBS to see what other cartridge authors are up to.",
+                            "",
+                            "> Example Wallpaper by [castpixel](https://twitter.com/castpixel)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Next Generation Fantasy Hardware",
+                        "content": [
+                            "",
+                            "![Picotron Bunny](https://www.lexaloffle.com/gfx/picotron_bunny.gif)",
+                            "",
+                            "Picotron is built on tightly integrated, flexible graphics and audio pipelines that can happily run on low powered host machines and web. They each come with a simple-to-use API for handling common things like drawing a colour-swapped sprite or triggering a sound effect, but the underlying data and machine state is all exposed in virtual RAM, offering a myriad of possibilities for those willing to venture down the rabbithole.",
+                            ""
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "level": 1,
+                "text": "Status: Alpha",
+                "content": [
+                    "Picotron 0.2 is still new, but has a relatively complete API, binary and HTML exporters and BBS cartridge browsing. See the roadmap for future plans:",
+                    "",
+                    "[Roadmap](roadmap.md)"
+                ],
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/config/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "config [key] [value]",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "`config` allows you to edit picotrons system settings (`/appdata/system/settings.pod`)",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "battery_saver `boolean`",
+                                "content": [
+                                    "",
+                                    "Enable Picotron's battery saver",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "blit_720p `boolean`",
+                                "content": [
+                                    "",
+                                    "Use Picotron's 720p mode",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "floppy_windows `nil`",
+                                "content": [
+                                    "",
+                                    "Does absolutely nothing!",
+                                    "",
+                                    "Left in by zep on accident?",
+                                    "",
+                                    "No reference to floppy_windows in /system/",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "fullscreen `boolean`",
+                                "content": [
+                                    "",
+                                    "Fullscreen Picotron in the host OS",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "mute_audio `boolean`",
+                                "content": [
+                                    "",
+                                    "Mute the audio of Picotron",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "network_access `boolean`",
+                                "content": [
+                                    "",
+                                    "Allow Picotron to access your network",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "pixel_perfect `boolean`",
+                                "content": [
+                                    "",
+                                    "Whether Picotron should be scaled up to be pixel perfect",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "rshift_magnify `boolean`",
+                                "content": [
+                                    "",
+                                    "Whether pressing `RIGHT SHIFT` should magnify the area around your cursor",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "snap_to-grid `boolean`",
+                                "content": [
+                                    "",
+                                    "Files on the desktop snapping to a grid",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "sparkles `boolean`",
+                                "content": [
+                                    "",
+                                    "Sparkles follow the cursor",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "stretch `boolean`",
+                                "content": [
+                                    "",
+                                    "Stretch the Picotron screen to fill the entirity of your native screen",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "swap_stereo `boolean`",
+                                "content": [
+                                    "",
+                                    "Swap the sides of your stereo audio",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "theme `string (filepath)`",
+                                "content": [
+                                    "",
+                                    "Path to a .theme file",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "wallpaper `string (filepath)`",
+                                "content": [
+                                    "",
+                                    "Path to a picotron cartridge"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "readme.md",
+        "path": "/functions/readme.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "functions",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Documentation on all of functions in the Picotron API",
+                            "",
+                            "[`set_spr`](/functions/set_spr)"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/functions/unmap/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "unmap(ud,addr,[len])",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "this is the only way to release mapped userdata for collection",
+                            "",
+                            "e.g. memmapping a userdata over an old one is not sufficient to free it for collection",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "ud",
+                                "content": [
+                                    "",
+                                    "The userdata that is unmapped from memory",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "addr",
+                                "content": [
+                                    "",
+                                    "The address to unmap the userdata from",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "[len]",
+                                "content": [
+                                    "",
+                                    "Length of the userdata to unmap, defaults to the full userdata length",
+                                    ""
+                                ],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "text": "Returns",
+                        "content": [
+                            "",
+                            "This function does not return anything"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/functions/set_spr/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "set_spr(index, s, [flags_val])",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "`set_spr` adds or removes a sprite at a set index.",
+                            "",
+                            "Sprite flags are stored at 0xc000 (16k)",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "index",
+                                "content": [
+                                    "",
+                                    "The index of the sprite you're modifying in the spritesheet.",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "s",
+                                "content": [
+                                    "",
+                                    "The sprite data to set in sprite `index`, form of a `userdata u8`.",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "[flags_val]",
+                                "content": [
+                                    "",
+                                    "The flag information to be set for sprite `index`, defaults to 0",
+                                    "",
+                                    "Poked into `0xc000`, offset by `index &= 0x3fff`",
+                                    ""
+                                ],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "text": "Returns",
+                        "content": [
+                            "",
+                            "This function does not return anything"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/functions/memmap/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "memmap(ud,addr,[offset],[len])",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "`memmap` allows you to write a 4k (`0x1000`) userdata, `ud` to an address, `addr` in memory",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "ud",
+                                "content": [
+                                    "",
+                                    "The userdata that is mapped into memory",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "addr",
+                                "content": [
+                                    "",
+                                    "The address to map the userdata into",
+                                    "",
+                                    "Mapping to address `0x100000` automatically unmaps the loaded map data & replacing the loaded map in memory with `ud`.",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "[offset]",
+                                "content": [
+                                    "",
+                                    "Unknown",
+                                    "",
+                                    "> Presuming that it's the offset in either memory in the userdata",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "[len]",
+                                "content": [
+                                    "",
+                                    "Unknown",
+                                    "",
+                                    "> Presuming that it's the length of the userdata"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "text": "Returns",
+                        "content": [
+                            "",
+                            "Returns the inputted `ud`",
+                            "",
+                            "Allows things such as:",
+                            "",
+                            "```",
+                            "pfxdat = fetch(\"tune.sfx\"):memmap(0x30000)",
+                            "```"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/functions/map/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "map(ud, [b], [...])",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "`map` draws a map, either through picotron system or legacy pico-8 method",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron System",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "ud",
+                                "content": [
+                                    "",
+                                    "The map data in the datatype `userdata`",
+                                    "",
+                                    "If `ud` is not in the datatype `userdata`, it follows the legacy Pico-8 format.",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "[b]",
+                                "content": [
+                                    "",
+                                    "Unknown",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "[...]",
+                                "content": [
+                                    "",
+                                    "Extra arguments that are sent through to the system _draw_map function.",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "> Returns",
+                                "content": [
+                                    "",
+                                    "This function does not return anything",
+                                    ""
+                                ],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "text": "Legacy Pico-8 System",
+                        "content": [
+                            "",
+                            "The legacy Pico-8 system is added for legacy support and an alternative way to use maps.",
+                            "",
+                            "Legacy Pico-8 function",
+                            "",
+                            "`map(celx, cely, sx, sy, celw, celh, [layer])`",
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "celx",
+                                "content": [
+                                    "",
+                                    "The column location of the map cell in the upper left corner of the region to draw, where 0 is the leftmost column.",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "cely",
+                                "content": [
+                                    "",
+                                    "The row location of the map cell in the upper left corner of the region to draw, where 0 is the topmost row.",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "sx",
+                                "content": [
+                                    "",
+                                    "The x coordinate of the screen to place the upper left corner.",
+                                    "",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "sy",
+                                "content": [
+                                    "",
+                                    "The y coordinate of the screen to place the upper left corner.",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "celw",
+                                "content": [
+                                    "",
+                                    "The number of map cells wide in the region to draw.",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "celh",
+                                "content": [
+                                    "",
+                                    "The number of map cells tall in the region to draw.",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "[layer]",
+                                "content": [
+                                    "",
+                                    "If specified, only draw sprites that have flags set for every bit in this value (a bitfield). The default is 0 (draw all sprites).",
+                                    ""
+                                ],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "text": "Returns",
+                        "content": [
+                            "",
+                            "This function does not return anything"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/functions/get_spr/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "get_spr(index)",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "`get_spr` returns the sprite information of the sprite at `index`.",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "index",
+                                "content": [
+                                    "",
+                                    "The sprite index of which you want the information",
+                                    ""
+                                ],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "text": "Returns",
+                        "content": [
+                            "",
+                            "This returns the `userdata u8` graphical data of the sprite at sprite `index`."
                         ],
                         "children": []
                     }

@@ -62,3 +62,7 @@ The number of map cells tall in the region to draw.
 ### [layer]
 
 If specified, only draw sprites that have flags set for every bit in this value (a bitfield). The default is 0 (draw all sprites).
+
+## Returns
+
+This function does not return anything
