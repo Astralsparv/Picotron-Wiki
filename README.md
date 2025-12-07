@@ -8,6 +8,11 @@ Hopefully having a markdown viewer cartridge with the ability to view all of thi
 
 Information on contribution to documentation is [here](documenting.md)
 
+## Search Engine
+
+There is a search engine for the Picotron Wiki.
+It can be found [here](https://astralsparv.neocities.org/picotronwiki/)
+
 ## Picotron Information
 
 Information on Picotron can be found [here](information/whatis.md)

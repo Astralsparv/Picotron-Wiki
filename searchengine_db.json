@@ -1,0 +1,2026 @@
+[
+    {
+        "name": "README.md",
+        "path": "/README.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "Picotron Wiki",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Wiki Information",
+                        "content": [
+                            "",
+                            "A likely futile attempt to support the documentation of [Picotron](https://www.lexaloffle.com/picotron.php).",
+                            "",
+                            "Hopefully having a markdown viewer cartridge with the ability to view all of this information within Picotron natively (& any github pages in extension)",
+                            "",
+                            "Information on contribution to documentation is [here](documenting.md)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Search Engine",
+                        "content": [
+                            "",
+                            "There is a search engine for the Picotron Wiki.",
+                            "It can be found [here](https://astralsparv.neocities.org/picotronwiki/)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron Information",
+                        "content": [
+                            "",
+                            "Information on Picotron can be found [here](information/whatis.md)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "System documentation",
+                        "content": [
+                            "",
+                            "System documentation can be found [here](system/)",
+                            "",
+                            "Documenting every section of `/system`"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "documenting.md",
+        "path": "/documenting.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "Documenting the Picotron Wiki",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Current Process",
+                        "content": [
+                            "",
+                            "If you would like to add documentation to the Picotron Wiki, please create a pull request.",
+                            "",
+                            "As of writing this, this is a sole person documentation project."
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "readme.md",
+        "path": "/system/readme.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "system",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Documentation on all of `/system/`",
+                            "",
+                            "[`/system/util`](util/)"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "readme.md",
+        "path": "/system/util/readme.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "util",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "Documentation on all the default utilities seen in `/system/util`.",
+                            "",
+                            "Fully documented as of `0.2.1e`",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Commands",
+                        "content": [
+                            "",
+                            "[config](config/)",
+                            "",
+                            "[cp](cp/)",
+                            "",
+                            "[default_app](default_app/)",
+                            "",
+                            "[dir](dir/)",
+                            "",
+                            "[edit](edit/)",
+                            "",
+                            "[export](export/)",
+                            "",
+                            "[folder](folder/)",
+                            "",
+                            "[help](help/)",
+                            "",
+                            "[info](info/)",
+                            "",
+                            "[kill](kill/)",
+                            "",
+                            "[load](load/)",
+                            "",
+                            "[ls](ls/)",
+                            "",
+                            "[mkdir](mkdir/)",
+                            "",
+                            "[mount](mount/)",
+                            "",
+                            "[mv](mv/)",
+                            "",
+                            "[open](open/)",
+                            "",
+                            "[ps](ps/)",
+                            "",
+                            "[pwc](pwc/)",
+                            "",
+                            "[pwd](pwd/)",
+                            "",
+                            "[reboot](reboot/)",
+                            "",
+                            "[rm](rm/)",
+                            "",
+                            "[run](run/)",
+                            "",
+                            "[save](save/)",
+                            "",
+                            "[shutdown](shutdown/)"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/shutdown/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "shutdown",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Shuts down Picotron",
+                            "",
+                            "Source: [source.lua](source.lua)"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/save/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "save [path]",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Runs the current loaded cartridge (`/ram/cart/`), optionally to a new location `[path]`",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "[path]",
+                                "content": [
+                                    "",
+                                    "Optional location to save to, automatically appends .p64 if there is no extension",
+                                    ""
+                                ],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "text": "Future",
+                        "content": [
+                            "",
+                            "Taken from comments in zep's code",
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "Saving as a folder",
+                                "content": [
+                                    "",
+                                    "`-- add extension when none is given (to do: how to save to a regular folder with no extension in name? maybe just don't do that?)`",
+                                    "",
+                                    "Possibly making it possible to save a cartridge to a folder, rather than a .p64 file, so that the host OS can open the p64.",
+                                    "",
+                                    "> This can be done by creating a folder named `cartridge.p64` in the host os in the meantime."
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/run/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "run",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Runs the current loaded cartridge (`/ram/cart/`)",
+                            "",
+                            "Source: [source.lua](source.lua)"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/rm/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "rm filename",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Reboots Picotron",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Possible Future",
+                        "content": [
+                            "",
+                            "Taken from comments in zep's code",
+                            "Could be incorrect as zep copy pasted from `cp` command, but didn't rectify the name",
+                            "",
+                            "```",
+                            "--[[",
+                            "\tcp src dest",
+                            "",
+                            "\tresulting file should be idential to src (can't just fetch and then store)",
+                            "",
+                            "\tto do:",
+                            "\t\t-r recursive // rm() is currently recursive by default though",
+                            "\t\thow to do interactive copying? (prompt for overwrite)",
+                            "]]",
+                            "```",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "[options]",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "`-r`",
+                                "content": [
+                                    "",
+                                    "Recursive remove",
+                                    "",
+                                    "Unsure of how to handle overwriting files."
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/reboot/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "reboot",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Reboots Picotron",
+                            "",
+                            "Source: [source.lua](source.lua)"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/pwc/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "pwc",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Returns the current loaded cartridge",
+                            "",
+                            "Source: [source.lua](source.lua)"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/pwd/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "pwc",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Returns the current working path",
+                            "",
+                            "Source: [source.lua](source.lua)"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/ps/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "ps",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Lists all active processes and details",
+                            "",
+                            "Identical to the about.p64 view of processes but a snapshot, rather than actively updating",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "Details shown",
+                                "content": [
+                                    ""
+                                ],
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "text": "pid",
+                                        "content": [
+                                            "",
+                                            "PID of the process",
+                                            ""
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "level": 4,
+                                        "text": "name",
+                                        "content": [
+                                            "",
+                                            "Name of the process",
+                                            ""
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "level": 4,
+                                        "text": "cpu",
+                                        "content": [
+                                            "",
+                                            "CPU usage of the process (in decimal, rather than percentage)",
+                                            ""
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "level": 4,
+                                        "text": "pri",
+                                        "content": [
+                                            "",
+                                            "Priority of the process",
+                                            ""
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "level": 4,
+                                        "text": "mem",
+                                        "content": [
+                                            "",
+                                            "Memory usage of the process in Kilobytes",
+                                            ""
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/open/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "open path",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Identical to `edit`",
+                            "",
+                            "Open the file specified",
+                            "",
+                            "Fails if there is no default program to open it",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "path",
+                                "content": [
+                                    "",
+                                    "Path to the file you want to open"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/mv/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "mv [options] src dest",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Moves `src` to `dest`",
+                            "",
+                            "Use `mv --help` for the built in instructions",
+                            "",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "[options]",
+                                "content": [
+                                    "",
+                                    "Optional arguments for the command",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "`-f`",
+                                "content": [
+                                    "",
+                                    "overwrite `dest` instead of placing it inside of `dest`",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "`-n`",
+                                "content": [
+                                    "no clobber, skips copying files if a file with the same name already exists in `dest`",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "src",
+                                "content": [
+                                    "",
+                                    "A folder or file to be moved",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "dest",
+                                "content": [
+                                    "",
+                                    "Location of the file to be moved to"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/mount/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "mount target origin",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Mounts folder at `origin` to `target`",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "target",
+                                "content": [
+                                    "",
+                                    "Mounting point of `origin`",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "origin",
+                                "content": [
+                                    "",
+                                    "Folder to mount at `target`"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/mkdir/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "mkdir path",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Creates a folder in `path`",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "path",
+                                "content": [
+                                    "",
+                                    "Relative location you want to create a path in",
+                                    "",
+                                    "Relative to the current working directory",
+                                    ""
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/ls/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "ls [path]",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Identical to `dir`",
+                            "List all files in the directory",
+                            "",
+                            "Defaults to your current working path",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "[path]",
+                                "content": [
+                                    "",
+                                    "Optional argument for the path you want to list files of, instead of your current working path"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/load/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "load [options] path",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Loads `path` as a cartridge",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "[options]",
+                                "content": [
+                                    ""
+                                ],
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "text": "`-b`",
+                                        "content": [
+                                            "",
+                                            "Open files from the workspace in the background, rather than stealing the focus of the current window",
+                                            ""
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "level": 3,
+                                "text": "path",
+                                "content": [
+                                    "",
+                                    "The path, folder or file, to a cartridge",
+                                    "",
+                                    "Append with `bbs://` protocol or `#` to load a cartridge from the bbs"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/kill/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "kill pid",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Kills (shuts down) the process with the pid `pid`",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "pid",
+                                "content": [
+                                    "",
+                                    "The process id of the process you want to kill"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/info/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "info",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Displays information about the current loaded cartridge",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "Information displayed",
+                                "content": [
+                                    "",
+                                    "Path to the cartridge on disk",
+                                    "",
+                                    "Compressed ROM size & compression percentage",
+                                    "",
+                                    "Whether there are unsaved changes",
+                                    "",
+                                    "Shows if there are external changes"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/help/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "folder [path]",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Prints helpful cheatsheet for Picotron",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Output",
+                        "content": [
+                            "",
+                            "    - Picotron Cheatsheet",
+                            "        ",
+                            "        ls (or dir)       \\fd list files in the current folder\\",
+                            "        cd <directory>    \\fd change directory (folder)\\",
+                            "        mkdir <directory> \\fd create a directory\\",
+                            "        load <filename>   \\fd load a cartridge (.p64) into /ram/cart\\",
+                            "        save <filename>   \\fd save /ram/cart back to a .p64 file\\",
+                            "        reset             \\fd reset draw state\\",
+                            "        ",
+                            "        CTRL-R            \\fd run the loaded cartridge\\",
+                            "        ESC               \\fd stop program or toggle between editor and output\\",
+                            "        CTRL-L            \\fd clear the terminal\\",
+                            "        ",
+                            "        To try out a demo:",
+                            "        $ cd /system/demos\\",
+                            "        $ load highway\\",
+                            "",
+                            "        .. and then CTRL-R to run it\\"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/folder/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "folder [path]",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Opens the current working folder or `[path]` in the host OS.",
+                            "",
+                            "You cannot open the `/ram/` folder or any `/ram/` subfolders.",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "[path]",
+                                "content": [
+                                    "",
+                                    "Lets you define the folder to open"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/edit/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "edit path",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Edit the file specified",
+                            "",
+                            "Fails if there is no default program to edit it",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "path",
+                                "content": [
+                                    "",
+                                    "Path to the file you want to edit"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/export/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "export [outfile]",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Exports the loaded cartridge (`/ram/cart`)",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "outfile",
+                                "content": [
+                                    "",
+                                    "File location to export",
+                                    "",
+                                    "Supported filetypes to export to:",
+                                    ""
+                                ],
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "text": "`.p64.png`",
+                                        "content": [
+                                            "",
+                                            "BBS Format for cartridges",
+                                            ""
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "level": 4,
+                                        "text": "`.html`",
+                                        "content": [
+                                            "",
+                                            "One-file web export",
+                                            ""
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "level": 4,
+                                        "text": "`.bin`",
+                                        "content": [
+                                            "",
+                                            "Binary exports for windows, linux and mac",
+                                            ""
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "text": "Future",
+                        "content": [
+                            "",
+                            "Ability to export from any path, rather than `/ram/cart`"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/dir/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "dir [path]",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "Identical to `ls`",
+                            "List all files in the directory",
+                            "",
+                            "Defaults to your current working path",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "[path]",
+                                "content": [
+                                    "",
+                                    "Optional argument for the path you want to list files of, instead of your current working path"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/default_app/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "default_app",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Setting extensions `default_app ext [path_to_program]`",
+                        "content": [
+                            "",
+                            "Sets the default programs for extensions, edits `\"/appdata/system/default_apps.pod\"`",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "Arguments",
+                                "content": [
+                                    ""
+                                ],
+                                "children": [
+                                    {
+                                        "level": 4,
+                                        "text": "ext",
+                                        "content": [
+                                            "",
+                                            "The extension you would like to set the default app for, e.g: `lua`",
+                                            ""
+                                        ],
+                                        "children": []
+                                    },
+                                    {
+                                        "level": 4,
+                                        "text": "[path_to_program]",
+                                        "content": [
+                                            "",
+                                            "The path to the program that should handle your file.",
+                                            "",
+                                            "Leave blank to remove the default app for the extension",
+                                            ""
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "text": "List current extensions `default_app -l`",
+                        "content": [
+                            "",
+                            "Lists all current default extensions you have set"
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/cp/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "cp [options] src dest",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "`cp` lets you copy a file (`src`) to a folder (`dest`)",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "[options]",
+                                "content": [
+                                    "",
+                                    "Optional arguments for the command",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "`-f`",
+                                "content": [
+                                    "",
+                                    "overwrite `dest` instead of placing it inside of `dest`",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "`-n`",
+                                "content": [
+                                    "no clobber, skips copying files if a file with the same name already exists in `dest`",
+                                    ""
+                                ],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "level": 2,
+                        "text": "src",
+                        "content": [
+                            "",
+                            "The source file",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "dest",
+                        "content": [
+                            "",
+                            "Path to a folder",
+                            "",
+                            "Overwrites the folder with option `-f`",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Future",
+                        "content": [
+                            "Taken from comments in zep's code",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "[options]",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "`-r`",
+                                "content": [
+                                    "",
+                                    "Recursive copy",
+                                    "",
+                                    "Unsure of how to handle overwriting files."
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "main.md",
+        "path": "/system/util/config/main.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "config [key] [value]",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Overview",
+                        "content": [
+                            "",
+                            "`config` allows you to edit picotrons system settings (`/appdata/system/settings.pod`)",
+                            "",
+                            "Source: [source.lua](source.lua)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Arguments",
+                        "content": [
+                            ""
+                        ],
+                        "children": [
+                            {
+                                "level": 3,
+                                "text": "battery_saver `boolean`",
+                                "content": [
+                                    "",
+                                    "Enable Picotron's battery saver",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "blit_720p `boolean`",
+                                "content": [
+                                    "",
+                                    "Use Picotron's 720p mode",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "floppy_windows `nil`",
+                                "content": [
+                                    "",
+                                    "Does absolutely nothing!",
+                                    "",
+                                    "Left in by zep on accident?",
+                                    "",
+                                    "No reference to floppy_windows in /system/",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "fullscreen `boolean`",
+                                "content": [
+                                    "",
+                                    "Fullscreen Picotron in the host OS",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "mute_audio `boolean`",
+                                "content": [
+                                    "",
+                                    "Mute the audio of Picotron",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "network_access `boolean`",
+                                "content": [
+                                    "",
+                                    "Allow Picotron to access your network",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "pixel_perfect `boolean`",
+                                "content": [
+                                    "",
+                                    "Whether Picotron should be scaled up to be pixel perfect",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "rshift_magnify `boolean`",
+                                "content": [
+                                    "",
+                                    "Whether pressing `RIGHT SHIFT` should magnify the area around your cursor",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "snap_to-grid `boolean`",
+                                "content": [
+                                    "",
+                                    "Files on the desktop snapping to a grid",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "sparkles `boolean`",
+                                "content": [
+                                    "",
+                                    "Sparkles follow the cursor",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "stretch `boolean`",
+                                "content": [
+                                    "",
+                                    "Stretch the Picotron screen to fill the entirity of your native screen",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "swap_stereo `boolean`",
+                                "content": [
+                                    "",
+                                    "Swap the sides of your stereo audio",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "theme `string (filepath)`",
+                                "content": [
+                                    "",
+                                    "Path to a .theme file",
+                                    ""
+                                ],
+                                "children": []
+                            },
+                            {
+                                "level": 3,
+                                "text": "wallpaper `string (filepath)`",
+                                "content": [
+                                    "",
+                                    "Path to a picotron cartridge"
+                                ],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "readme.md",
+        "path": "/information/readme.md",
+        "data": [
+            {
+                "level": 1,
+                "text": "Picotron Information",
+                "content": [
+                    "",
+                    "[Roadmap](roadmap.md)",
+                    "",
+                    "[What Is Picotron](whatis.md)"
+                ],
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "whatis.md",
+        "path": "/information/whatis.md",
+        "data": [
+            {
+                "level": 3,
+                "text": "from the [main page](https://www.lexaloffle.com/picotron.php)",
+                "content": [
+                    ""
+                ],
+                "children": []
+            },
+            {
+                "level": 1,
+                "text": "What is Picotron?",
+                "content": [
+                    "",
+                    "Picotron is a Fantasy Workstation: a self-contained creative environment built for imaginary hardware. Create and share cute Lua apps that can run on the Picotron desktop, be shared as cartridge files, or exported as stand-alone HTML and binary distributables.",
+                    ""
+                ],
+                "children": []
+            },
+            {
+                "level": 1,
+                "text": "Specifications",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Display: 480x270",
+                        "content": [
+                            "",
+                            "Picotron comes with a 480x270 64-colour display, which can also run at 240x135 or 160x90 and with custom palettes in fullscreen mode. The built-in graphics api gives versatile low-level access to the display, with features like 8x8 fill patterns, palette swapping and blending, stencil bits and tline3d for rasterizing perspective correct textures.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Cosy Filesystem",
+                        "content": [
+                            "",
+                            "Picotron uses a virtual filesystem that only exposes parts of your host system as needed. All files inside Picotron are in a special format (POD: Picotron Object Data) that allows Lua tables to be directly stored and fetched from disk. Storing data like save games and level data is simple: bundle everything into a Lua table and store() it as a pod.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Audio: PFX6416",
+                        "content": [
+                            "",
+                            "All of the audio in Picotron is generated in realtime by a purpose-built 64-node, 16 channel synthesizer called PFX6416. Nodes can either generate a signal from a wavetable, or modify it using FM/RING modulation, delay, HP/LP resonant filters and wave-shaping. Instruments and music/tracker data in Picotron are extremely tiny on disk; a piece of music with custom instrument design can be stored in 5~20k.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "8M inst/sec",
+                        "content": [
+                            "",
+                            "Picotron uses a separate (slightly modified) Lua 5.4 vm per \"process\", and virtual cpu is divided up between processes for a maximum of 8M vm instructions per second. This means that Picotron cartridges can run at a consistent speed across varying platforms; if it runs ok on a high-end desktop machine, it will look roughly the same running under web on an old netbook.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "256K Cartridges",
+                        "content": [
+                            "",
+                            "Applications, projects and distributable bundles are all the same type of thing in Picotron: a cartridge. Each cartridge acts like a regular folder and contains all of the source files and resources needed to run the program. On the host system it is stored as a single git-friendly text file (.p64: any size that fits in ram), or a shareable png format (.p64.png: max 256k of ROM data).",
+                            ""
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "level": 1,
+                "text": "More information",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Fantasy Desktop",
+                        "content": [
+                            "",
+                            "![Fantasy Desktop](https://www.lexaloffle.com/gfx/fantasy_desktop.gif)",
+                            "",
+                            "Picotron comes with a cute desktop interface featuring tabbed workspaces and a fold-out tooltray that is accessible from any workspace. The tooltray acts as a second desktop for handy access to frequently used files and widgets. Files can also be dropped on top of each other to form tidy stacks that are shuffleable with the mousewheel.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Bundled Tools",
+                        "content": [
+                            "",
+                            "![Bundled Tools](https://www.lexaloffle.com/gfx/picotron_bamboo.gif)",
+                            "",
+                            "Use the built-in editors or create your own! The included editors for code, graphics, tile maps, music and sound effects are themselves all made in Picotron and use standard /system/lib libraries for handling things like unlimited undo stacks, gui, and file management.",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Customise your Workstation",
+                        "content": [
+                            "",
+                            "![Picotron Desktop](https://www.lexaloffle.com/dl/wip/picotron_desktop2.png)",
+                            "",
+                            "Make your own live wallpapers, screensavers, icons, widgets, and set up workflows just the way you like! Or have a look around the BBS to see what other cartridge authors are up to.",
+                            "",
+                            "> Example Wallpaper by [castpixel](https://twitter.com/castpixel)",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Next Generation Fantasy Hardware",
+                        "content": [
+                            "",
+                            "![Picotron Bunny](https://www.lexaloffle.com/gfx/picotron_bunny.gif)",
+                            "",
+                            "Picotron is built on tightly integrated, flexible graphics and audio pipelines that can happily run on low powered host machines and web. They each come with a simple-to-use API for handling common things like drawing a colour-swapped sprite or triggering a sound effect, but the underlying data and machine state is all exposed in virtual RAM, offering a myriad of possibilities for those willing to venture down the rabbithole.",
+                            ""
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "level": 1,
+                "text": "Status: Alpha",
+                "content": [
+                    "Picotron 0.2 is still new, but has a relatively complete API, binary and HTML exporters and BBS cartridge browsing. See the roadmap for future plans:",
+                    "",
+                    "[Roadmap](roadmap.md)"
+                ],
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "roadmap.md",
+        "path": "/information/roadmap.md",
+        "data": [
+            {
+                "level": 3,
+                "text": "from the [main page](https://www.lexaloffle.com/picotron.php?page=roadmap)",
+                "content": [
+                    ""
+                ],
+                "children": []
+            },
+            {
+                "level": 1,
+                "text": "Picotron Roadmap",
+                "content": [
+                    ""
+                ],
+                "children": [
+                    {
+                        "level": 2,
+                        "text": "Picotron 0.0: \"Playground\" (2022 Q4)",
+                        "content": [
+                            "",
+                            "// Open-access web build for testing (became unavailable at 0.1)",
+                            "",
+                            "Architecture\t// File system, system events, memory mapping, wm",
+                            "",
+                            "GFX Pipeline\t// Colour tables, draw state",
+                            "",
+                            "API\t// Based on Lua 5.4, compatible w/ PICO-8 where possible",
+                            "",
+                            "CPU\t// Find costs that roughly match slowest hosts",
+                            "",
+                            "Audio\t// Synthesizer runtime & test carts",
+                            "",
+                            "** offline for now, but will come back later in some form",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron 0.1 (~~2023~~ 2024-03-14)",
+                        "content": [
+                            "",
+                            "",
+                            "Binary Builds\t// Windows, Mac, Linux",
+                            "",
+                            "Editors\t// Code, Pixels, Maps, Synth Designer, Tracker",
+                            "",
+                            "Desktop\t// Run window-based programs, file management gui",
+                            "",
+                            "Customisation\t// Theme editor, wallpapers, screensavers",
+                            "",
+                            "File Formats\t// Plain-text .p64, Binary .p64.rom, Shareable .p64.png",
+                            "",
+                            "HTTP GET\t// From local apps and exports only; not BBS carts",
+                            "",
+                            "BBS Integration\t// Submit carts to a sub-forum, load # directly from bbs",
+                            "",
+                            "Sandboxing\t// Safe to run untrusted carts without exposing Picotron drive",
+                            "",
+                            "HTML Exporter\t// .wasm runtime + bundled cartridge, licensed similar to P8",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron 0.2 (~~2024~~ 2025-03-14)",
+                        "content": [
+                            "",
+                            "",
+                            "Binary Exporters\t// Windows, Mac, Linux -- includes desktop export",
+                            "",
+                            "bbs://\t// [in 0.1.1e] Cross-platform bbs access; handles caching / offline access",
+                            "",
+                            "Tooltray\t// [in 0.1.1e] Install widgets into the tooltray that can run sandboxed",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron 0.2.0* (2025-Q2/Q3)",
+                        "content": [
+                            "",
+                            "Raspi 64-bit\t// Requires raspi 3 or later",
+                            "",
+                            "UDP / TCP sockets\t// For binaries / exports",
+                            "",
+                            "GFX API\t// rrect, P8SCII outline / underline",
+                            "",
+                            "Headless Programs\t// interactive terminal apps, background processes",
+                            "",
+                            "Spritesheet Importer\t// load from png / p8",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron 0.2.1 (2025-10)",
+                        "content": [
+                            "",
+                            "",
+                            "Anywhen\t// Fetch files and directory listings from any point in time",
+                            "",
+                            "File System\t// sandboxing, mounting, robustness improvements",
+                            "",
+                            "Unsaved Changes\t// monitor at the cart / file level and confirm overwrites etc",
+                            "",
+                            "Events\t// non-blocking fetch(), blocking send_message(), custom mainloops",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron 0.2.2 (2025-11)",
+                        "content": [
+                            "",
+                            "Splore",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron 0.2.3 (2025-12)",
+                        "content": [
+                            "",
+                            "",
+                            "Logins\t// User can log in with bbs account, apps can read username",
+                            "",
+                            "podnet://\t// User-wise public storage that can be used by sandboxed apps",
+                            "",
+                            "flp.io\t// Bucket naming service; allows publishing podnet websites",
+                            "",
+                            "Cart switching\t// BBS carts can load & run other BBS carts",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron 0.2.4 (2026-01)",
+                        "content": [
+                            "",
+                            "",
+                            "Video Modes\t// Support for extra fullscreen video modes",
+                            "",
+                            "Native Windows\t// Export carts that run directly in a native host window",
+                            "",
+                            "Export Headless\t// Export commandline programs",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron 0.3 [beta] (2026-03-14)",
+                        "content": [
+                            "",
+                            "BBS highscores\t// Submit scores + extra data while logged in",
+                            "",
+                            "Websockets\t// For exports [and bbs carts] on all platforms",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron 0.?",
+                        "content": [
+                            "",
+                            "// ongoing projects / no ETA",
+                            "",
+                            "Log Navigation\t// Browse logs by category: notifications, errors, system crash etc",
+                            "",
+                            "Gui Builder\t// Gui card editor and data format integrated with create_gui",
+                            "",
+                            "Libraries\t// Standard fonts, instruments, fill patterns, palettes",
+                            "",
+                            "Stickers\t// A general tagging and bookmarking scheme (experimental)",
+                            "",
+                            "Tool Improvements\t// Miscelaneous features for bundled tools & accessories",
+                            "",
+                            "PFX6416 Features\t// pcm instrument type, sfx instruments, channel-fx envelope control",
+                            ""
+                        ],
+                        "children": []
+                    },
+                    {
+                        "level": 2,
+                        "text": "Picotron 1.0",
+                        "content": [
+                            "",
+                            "Runtime / API Freeze\t",
+                            "",
+                            "Extra Bundled Software\t",
+                            "",
+                            "Runtime source exporting (export foo.src)\t",
+                            "",
+                            "// Exported runtime licensing is TBD, but the focus will be on allowing cart authors to",
+                            "",
+                            "// implement additional platform support or custom features for their own projects."
+                        ],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]
