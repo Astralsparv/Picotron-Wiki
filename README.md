@@ -11,7 +11,7 @@ Information on contribution to documentation is [here](documenting.md)
 ## Search Engine
 
 There is a search engine for the Picotron Wiki.
-It can be found [here](https://astralsparv.neocities.org/picotronwiki/)
+It can be found [here](https://astralsparv.github.io/Picotron-Wiki/)
 
 ## Picotron Information
 
