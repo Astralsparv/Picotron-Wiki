@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Picotron Wiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <a class="h1" href="https://github.com/Astralsparv/picotron-wiki/">Picotron Wiki</a>
+        <form onsubmit="openQuery(event);">
+            <input type="text" id="query" placeholder="search something!" autocomplete="off" spellcheck="false">
+            <input type="submit" id="submit" value="Search">
+        </form>
+    </div>
+
+    <div id="results">
+        <p>Welcome to the Picotron Wiki!<br>
+            This is a project in hopes to document Picotron.<br>
+            This acts as a search engine for the documentation found on Picotron<br>
+            Search something to get started!</p>
+    </div>
+    <div id="footer" class="footer">
+        <p>Designed & written by @astralsparv<br>A documentation project of <a href="https://www.lexaloffle.com/picotron.php">Picotron</a>, the fantasy workstation by Lexaloffle.</p>
+    </div>
+    <script src="results.js"></script>
+    <script src="searcher.js"></script>
+</body>
+</html>

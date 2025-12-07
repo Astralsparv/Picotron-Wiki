@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Lexend:wght@100..900&display=swap');
+
+body,html{
+    font-family: 'Atkinson Hyperlegible Mono', sans-serif;
+    background-color: #1D2B53;
+    color: #FFF1E8;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.top{
+    background: #2463B0;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    background: #2463B0;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer *{
+    margin: 0;
+}
+
+.smaller{
+    font-size: 10px;
+}
+
+form{
+    margin: 0;
+    margin-left: 30px;
+}
+
+input{
+    outline: none;
+    border: none;
+    color: #FFF1E8;
+    background: #1D2B53;
+    font-size: 25px;
+    font-family: 'Atkinson Hyperlegible Mono', sans-serif;
+}
+
+#submit{
+    cursor:pointer;
+    background: #83769C;
+}
+
+.h1{
+    margin: 0;
+}
+
+#results{
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.result{
+    margin-bottom: 10px;
+}
+
+.result *{
+    margin:0;
+}
+
+a{
+    color: #29ADFF;
+}
+
+a:visited{
+    color: #29ADFF;
+}
+
+a:hover{
+    color: #125359;
+}
+
+.title{
+    font-size: 20px;
+    color: #29ADFF;
+    text-decoration: none;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.relevance{
+    font-size: 10px;
+    color: #C2C3C7;
+}
+
+
+
+.h1{
+    color: #FFF1E8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.h1:visited{
+    color: #FFF1E8;
+}
+
+.h1:hover{
+    color: #C2C3C7;
+}
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #83769C;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #654688;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #BD9ADF;
+}
