@@ -81,11 +81,11 @@ function rip(){
                     const url = URL.createObjectURL(blob);
                     const a = document.createElement("a");
                     a.href = url;
-                    a.download = "data.json"; // Desired filename
-                    document.body.appendChild(a); // Append to body (optional, but good practice for visibility)
-                    a.click(); // Trigger the download
-                    document.body.removeChild(a); // Remove the temporary element
-                    URL.revokeObjectURL(url); // Release the object URL
+                    a.download = "data.json";
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url);
                 }
             };
             reader.readAsText(file);
