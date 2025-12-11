@@ -25,7 +25,7 @@ Documenting every section of `/system`
 
 ## Picotron API
 
-Documentation on the Picotron API can be found [here](functions/readme.md)
+Documentation on the Picotron API can be found [here](picotron_api/readme.md)
 
 ## Guides
 
