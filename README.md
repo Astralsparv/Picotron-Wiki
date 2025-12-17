@@ -27,9 +27,9 @@ Documenting every section of `/system`
 
 @Podepi - GUIs
 
-@[abledbody](https://github.com/abledbody) - Userdata
+[@abledbody](https://github.com/abledbody) - Userdata
 
-@[akd-io](https://github.com/akd-io) - stat documentation support
+[@akd-io](https://github.com/akd-io) - stat documentation support
 
 @Maxine - stat documentation support
 
