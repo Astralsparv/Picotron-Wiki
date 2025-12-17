@@ -7,7 +7,7 @@ Gets the width, height, and type of the userdata.
 The number of columns in the userdata.
 
 ### height: integer
-The number of rows in the userdata. Unlike the [`height`](/picotron_api/userdata/methods/height/main.md) method, userdatas without an internal height will return 1 for this value.
+The number of rows in the userdata. Unlike the [`height`](/picotron_api/userdata/methods/height/main.md) method, 1D userdatas will return 1 for this value.
 
 ## Example
 ```lua
