@@ -77,6 +77,6 @@ local ud = userdata("u8", 4, "080D1522")
 
 ?ud:get(0) -- 8
 ?ud:get(1) -- 13
-?ud:get(0) -- 21
-?ud:get(1) -- 34
+?ud:get(2) -- 21
+?ud:get(3) -- 34
 ```
