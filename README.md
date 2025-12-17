@@ -23,6 +23,14 @@ System documentation can be found [here](system/readme.md)
 
 Documenting every section of `/system`
 
+## Contributors
+
+@Podepi - GUIs
+@[abledbody](https://github.com/abledbody) - Userdata
+@[akd-io](https://github.com/akd-io) - stat documentation support
+@Maxine - stat documentation support
+@Astralsparv - creator/writing up of lots of general things
+
 ## Picotron API
 
 Documentation on the Picotron API can be found [here](picotron_api/readme.md)
