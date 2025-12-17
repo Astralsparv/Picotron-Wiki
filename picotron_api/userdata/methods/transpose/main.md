@@ -4,7 +4,7 @@ Swaps the `x` and `y` indices of all the values in the userdata, as well as the 
 
 ## Returns
 ### `ud`: [userdata](/picotron_api/userdata/readme.md)
-The transposed userdata.
+The transposed userdata. Always 2D, regardless of if the original userdata was 2D or not.
 
 ## Example
 ```lua
