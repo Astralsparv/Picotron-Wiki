@@ -5,6 +5,8 @@ A userdata is a specialized array type that contains numeric values, and is opti
 
 Userdatas are especially useful for representing large amounts of numerical data in a manner that's easy to manipulate and copy. They are also a pragmatic way to do operations based in linear algebra, and have a dedicated set of vector/matrix-specific methods, such as [`magnitude()`](methods/magnitude/main.md), [`cross()`](methods/cross/main.md) and [`matmul()`](methods/magnitude/main.md).
 
+Userdatas are a reference type. You can have multiple variables pointing to the same userdata. Many of userdata's methods and operators create and return new userdatas by default, rather than mutating the existing userdata, but unlike a string, they are still mutable by certain operations. You can create a new copy of a userdata by calling its [`copy()`](methods/copy/main.md) method with no arguments.
+
 ## Creation
 Userdatas are not resizable once created. However, most of the time the actual expense of allocating a userdata is several times cheaper than the overhead of calling the Lua function that would do so. There are several ways to make a new userdata.
 
@@ -15,11 +17,13 @@ Userdatas are not resizable once created. However, most of the time the actual e
 ## Numerical types
 Every userdata is an array containing one of the following numerical types:
 
-u8 - An unsigned 8-bit integer.
-i16 - A signed 16-bit integer.
-i32 - A signed 32-bit integer.
-i64 - A signed 64-bit integer.
-f64 - A 64-bit floating point number, useful for representing fractional values to high precision. This is also the type that will be created by the [`vec()`](/picotron_api/functions/vec/main.md) function.
+- u8 - An unsigned 8-bit integer.
+- i16 - A signed 16-bit integer.
+- i32 - A signed 32-bit integer.
+- i64 - A signed 64-bit integer.
+- f64 - A 64-bit floating point number, useful for representing fractional values to high precision. This is also the type that will be created by the [`vec()`](/picotron_api/functions/vec/main.md) function.
+
+If any operation on an integer typed userdata, including setting an element explicitly, would cause a number to overflow or underflow, the value will wrap around.
 
 ## Indexing
 You can fetch the total number of elements in a userdata by using the [`#`](metamethods/__len/main.md) operator, much like you would for a table array. For the number of rows or columns, you can use the [`height()`](methods/height/main.md), [`width()`](methods/width/main.md), or [`attribs()`](methods/attribs/main.md) methods.
