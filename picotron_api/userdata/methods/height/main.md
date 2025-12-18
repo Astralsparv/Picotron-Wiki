@@ -3,7 +3,7 @@
 Gets the height of the userdata.
 
 ## Returns
-### height: integer|nil
+### `height`: integer|nil
 The number of rows in the userdata if the userdata is 2D, or nil if the userdata is 1D.
 
 ## Example

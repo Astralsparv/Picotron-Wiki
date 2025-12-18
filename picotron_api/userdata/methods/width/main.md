@@ -3,7 +3,7 @@
 Gets the width of the userdata.
 
 ## Returns
-### width: integer
+### `width`: integer
 The number of columns in the userdata.
 
 ## Example
