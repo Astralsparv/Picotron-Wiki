@@ -24,6 +24,8 @@ Where the first number is `n` and any other arguments, if present, are `[...]`
 @Astralsparv's [Picotron Logger Distribution](https://github.com/Astralsparv/Picotron-Logger-Distribution) will be updated to help document this, fed the arbritrary values seen in unknown stats and detecting any change in the stat per frame in hopes of finding a cause and reproducing it.
 
 #### Stats
+where c is a channel, addr is an address, n is a node:
+
 * 0 - memory usage (bytes), also triggers a garbage collection
 * 1 - cpu usage (decimal)
 * 2 - reserved
@@ -40,6 +42,7 @@ Where the first number is `n` and any other arguments, if present, are `[...]`
 * 153 - web: window.location.hash
 * 301 - total CPU usage
 * 302, keycode - returns human readable name for the keycode, surface [SDL's GetKeyName](https://wiki.libsdl.org/SDL2/SDL_GetKeyName)
+* 305 - Unknown
 * 307 - 1.0 if current working path is `/system` (including if the cartridge is located in `/system/`)
 * 308 - Unknown
 * 309 - Unknown
@@ -56,8 +59,6 @@ Where the first number is `n` and any other arguments, if present, are `[...]`
 * 321 - amount of frames that the active gif capture has, `0.0` otherwise
 * 322 - `1.0` when you're actively capturing a gif, `0.0` otherwise
 * 330 - `1.0` when Picotron's battery saver is active, `0.0` otherwise
-
-where c is a channel, addr is an address, n is a node:
 * 400+c,0 - `1.0` when a note is held, `0.0` otherwise
 * 400+c,1 - channel instrument
 * 400+c,2 - channel volume
@@ -78,10 +79,102 @@ where c is a channel, addr is an address, n is a node:
 * 465, addr - copy last mixer stereo output buffer output is written as int16's to addr. (returns number of samples written)
 * 466 - which pattern is playing (-1 when no music is playing)
 * 467 - index of the left-most non-looping music channel
+* 984 - Unknown
 * 985 - Unknown
-* 987 - Unknown
+* 987 - miliseconds picotron has been running
 * 988 - `1.0` if both left and right control keys are held, `0.0` otherwise
 
 ## Returns
 
 The queried information from the stat, unique to `n`, see the valid stats above for information on specific stats.
+
+## Unknown stats
+
+More information on unknown stats.
+
+[stat.lua](https://github.com/akd-io/picotron/blob/main/drive/projects/stat/stat.lua) (a test from akd-io)
+
+### 305
+
+something to do with the keyboard, is any key pressed / what key is pressed ?
+```lua
+any_key1 = stat(305) -- this frame
+```
+
+### 308
+
+Observed value `1973.0` and `2334.0` in stat.lua output.
+
+No code references.
+
+### 309
+
+Observed value `60531740.0` and `63912031.0` in stat.lua output.
+
+No code references.
+
+### 310
+
+Observed value `551.0`, `565.0` and `3689.0` in stat.lua output.
+
+Same decompiled code as for stat(311) below, but passing 2 to pdisk_count_slots_by_kind() instead of 0.
+
+No code references.
+
+### 311
+
+Functionality unknown.
+
+Observed value `15833.0`, `15819.0` and `12342.0` in stat.lua output.
+
+Decompiled code by Maxine:
+
+```C
+if (stat_type != UNDOCUMENTED_311) goto LAB_00460c7f;
+tmp_int0 = pdisk_count_slots_by_kind(0);
+result_num = (lua_Number)tmp_int0;
+```
+
+### 312
+
+Observed value `4096.0` in stat.lua output.
+
+Size of a page in bytes?
+
+#### Picotron Manual reference
+Each process in Picotron has a limit of 32MB RAM, which includes both allocations for Lua objects, and data stored directly in RAM using memory functions like poke() and memcpy(). In the latter case, 4k pages are allocated when a page is written, and can not be deallocated during the process lifetime.
+
+Only 16MB of ram is addressable: 0x000000..0xffffff. Memory addresses below 0x80000 and above 0xf00000 are mostly reserved for system use, but anything in the 0x80000..0xefffff range can be safely used for arbitrary purposes.
+
+### 313
+
+Amount of memory allocated
+
+Decompiled by Maxine
+```C
+    case UNDOCUMENTED_313:
+        lua_pushnumber(L, cproc->mem_highwater);
+        return 1;
+```
+
+### 984
+
+To do with yielding and coroutines
+
+Code reference: 
+```lua
+if costatus(c) == "suspended" and stat(984) == 0 then
+```
+### 985
+
+Observed value `1.0` in stat.lua output.
+
+### 988
+
+To do with minimal terminal setup
+
+Code reference:
+```lua
+-- give a guaranteed short window to skip
+if (stat(988) > 0) bypass = true _signal(35)
+```
