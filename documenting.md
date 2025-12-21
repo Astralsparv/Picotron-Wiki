@@ -66,3 +66,9 @@ print("apple sauce")
 ````
 
 If there's another overload for the function or method, it can go after each of these subheading as another heading.
+
+## Updating the search engine DB
+
+Open the [ripper](https://astralsparv.github.io/Picotron-Wiki/ripper/) page & simply drag and drop the Picotron-Wiki folder.
+
+Download the file and replace /docs/db.json with it (in the repository).
