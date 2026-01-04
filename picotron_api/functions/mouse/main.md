@@ -48,10 +48,10 @@ Get the properties of the mouse & print when you left click or right click.
 ```lua
 function _update()
  mouse_x, mouse_y, mouse_b, wheel_x, wheel_y = mouse()
- if (mouse_b&0x1) then
+ if (mouse_b&0x1==0x1) then
   print("left click!")
  end
- if (mouse_b&0x2) then
+ if (mouse_b&0x2==0x2) then
   print("right click!")
  end
 end
