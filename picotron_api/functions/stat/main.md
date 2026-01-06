@@ -79,6 +79,7 @@ where c is a channel, addr is an address, n is a node:
 * 465, addr - copy last mixer stereo output buffer output is written as int16's to addr. (returns number of samples written)
 * 466 - which pattern is playing (-1 when no music is playing)
 * 467 - index of the left-most non-looping music channel
+* 498 - bitfield of currently active audio channels system-wide
 * 984 - Unknown
 * 985 - Unknown
 * 987 - miliseconds picotron has been running
