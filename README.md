@@ -39,6 +39,8 @@ Guides for Picotron can be found [here](guides/readme.md)
 
 @Podepi - GUIs
 
+[@KeyboardDanni](https://github.com/KeyboardDanni) - GUI overview
+
 [@abledbody](https://github.com/abledbody) - Userdata
 
 [@akd-io](https://github.com/akd-io) - stat documentation support

@@ -28,7 +28,11 @@ Position of mouse on x axis relative to this element
 
 ### my
 
-Position of mouse y axis relative to this element
+Position of mouse on y axis relative to this element
+
+### has_pointer
+
+True if the mouse is currently hovering this element. Useful for mouseover effects.
 
 ## Event Callbacks
 
