@@ -8,7 +8,9 @@ Picotron includes a lightweight GUI framework that can be used in apps as well a
 
 Picotron's GUI library uses a tree of `GuiElement` tables, with a "head" (root) element at the top, and each element containing any number of child elements. If you've ever used other tree-based frameworks like Qt or Godot, this one operates on a similar principle.
 
-Every element has its own set of [Event Callbacks](event_callbacks/readme.md). In most cases, there will be at least a [draw()](event_callbacks/draw/main.md) callback, though there may also be an [update()](event_callbacks/update/main.md) callback, similar to how the `_update()` and `_draw()` callbacks work in Picotron programs. Mouse clicks on buttons are usually implemented using [tap()](event_callbacks/tap/main.md).
+Every element has its own set of [callback functions](callback_functions). In most cases, there will be at least a [draw()](callback_functions/event_callbacks/draw/main.md) callback, though there may also be an [update()](callback_functions/event_callbacks/update/main.md) callback, similar to how the `_update()` and `_draw()` callbacks work in Picotron programs. Mouse clicks on buttons are usually implemented using [tap()](callback_functions/event_callbacks/tap/main.md).
+
+Although the GUI API is focused on the creation of custom elements; there are some [Standard Elements](methods/) that are included.
 
 ## Creation
 
@@ -36,7 +38,7 @@ function _draw()
 end
 ```
 
-To add elements, call one of the [Attachment](attachments/readme.md) functions. For this example, we'll expand our `_init()` function to display our cart in a window and attach a button.
+To add elements, call one of the [Attachment](method/readme.md) functions. For this example, we'll expand our `_init()` function to display our cart in a window and attach a button.
 
 ```lua
 function _init()
@@ -180,8 +182,9 @@ If you are making a desktop cart that doesn't need to animate while idle, consid
 Try to limit the use of `update()` callback processing in elements. Where possible, stick to interaction-based event callbacks like `tap()`. And of course, remember to cache the results of expensive calculations such as word-wrapping.
 
 ## References
-[Event Callbacks](event_callbacks/readme.md)
 
-[Attachments](attachments/readme.md)
+[Callback Functions](callback_functions/)
 
-[Attributes](attributes/readme.md)
+[Methods](methods/)
+
+[Attributes](attributes/)
