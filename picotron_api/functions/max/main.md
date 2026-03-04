@@ -1,4 +1,4 @@
-# max( a, b )
+# max(a,b): max
 
 ## Overview
 Returns the bigger of two numbers. 
