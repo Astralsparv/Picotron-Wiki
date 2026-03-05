@@ -1,19 +1,52 @@
-# Picotron API
+# Picotron Wiki
 
-## Overview
+## Wiki Information
 
-Documentation on all of the Picotron API
+Documentation of [Picotron](https://www.lexaloffle.com/picotron.php).
 
-[Functions](functions/readme.md)
+The official Picotron Wiki cart has been released on the [bbs](https://www.lexaloffle.com/bbs/?tid=154532) under the bbs id `#wiki`, more info can be found [here](cart.md)
 
-[GUI](gui/readme.md)
+Information on contribution to documentation is [here](documenting.md)
 
-[Userdata](userdata/readme.md)
+## Search Engine
 
-[Program Structure](program_structure/main.md)
+There is a search engine for the Picotron Wiki.
+It can be found [here](https://astralsparv.github.io/Picotron-Wiki/)
 
-[Picotron Lua](picotron_lua/main.md)
+## Picotron Information
 
-[Map](map/main.md)
+Information on Picotron can be found [here](information/whatis.md)
 
-[Graphics](graphics/main.md)
+## System documentation
+
+System documentation can be found [here](system/readme.md)
+
+Documenting every section of `/system`
+
+## Picotron API
+
+Documentation on the Picotron API can be found [here](picotron_api/readme.md)
+
+## Environment
+
+Documentation on the ecosystem/environment of Picotron can be found [here](environment/readme.md)
+
+## Guides
+
+Guides for Picotron can be found [here](guides/readme.md)
+
+## Contributors
+
+@Podepi - GUIs
+
+[@KeyboardDanni](https://github.com/KeyboardDanni) - GUI overview
+
+[@abledbody](https://github.com/abledbody) - Userdata
+
+[@akd-io](https://github.com/akd-io) - stat documentation support
+
+[@Maxine](https://github.com/MaxTheMooshroom) - stat documentation support
+
+@bloodninja - 720p upscaler documentation
+
+@Astralsparv - creator/writing up of lots of general things
