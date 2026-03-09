@@ -4,24 +4,18 @@
 
 `store` allows you to store files, typically used for save files by storing tables in the `pod` file format.
 
-Source: [source.lua](source.lua)
-
 ## Arguments
 
-### location
+### `location`: string
 
 The location you want to store a file at, e.g: `/appdata/mypod.pod`
 
-### obj
+### `obj`: any
 
 The file data, e.g: a table for a `.pod` file.
 
-### [metadata]
+### `[metadata]`: table
 
 Optional metadata of the file, e.g: `{mymetadatavalue="grapes"}`
 
 If you use `{metadata_format="none"}`, this will cut any metadata from the file.
-
-## Returns
-
-This function does not return anything

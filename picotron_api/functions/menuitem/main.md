@@ -5,17 +5,14 @@
 `menuitem` lets you edit the drop down menu on the window / context menu of the window.
 
 This has multiple different argument setups.
-Source: [source.lua](source.lua)
+
+Shortcuts in the form "CTRL-A".."CTRL-Z" and "CTRL-0".."CTRL-9" apply automatically
 
 # menuitem()
 
 ## Overview
 
 Leaving the function with no arguments clears the menu of its items
-
-## Returns
-
-Returns nothing
 
 # menuitem(m)
 
@@ -47,6 +44,22 @@ A lack of label causes the item to be deleted
 
 A function to call when you select this option.
 
-## Returns
+## Examples
 
-Returns nothing
+The following example program uses a menu to control the draw colour:
+```lua
+col = 0
+window{width=160, height=120} -- comment for fullscreen example
+menuitem{
+    id = "col_changer",
+    label = "Next Colour",
+    shortcut = "CTRL-N",
+    action = function()
+        col = (col + 1) % 10 -- cycle colour
+    end
+}
+
+function _draw()
+    cls(8 + col)
+end
+```

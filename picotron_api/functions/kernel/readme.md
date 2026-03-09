@@ -37,7 +37,7 @@ It may be of use to note that zep writes "kernel" as "kernal", seen through comm
 
 [_ppeek4](_ppeek4/main.md)
 
-[_blit_process_video](_apply_system_settings/main.md)
+[_blit_process_video](_blit_process_video/main.md)
 
 [_env](_env/main.md)
 

@@ -8,10 +8,12 @@ These can be received through [`on_event`](/picotron_api/functions/on_event/main
 
 There are some default events that exist, alongside the events you can create to send data between processes, these are found [here](default_events/readme.md)
 
+There are some system messages that can be used, these can be found [here](system/readme.md)
+
 ## Event properties
 
 All events have the following properties in `msg`:
 
-### from_proc_id
+### _from_proc_id
 
 The Process ID that the event is sent from.
