@@ -29,3 +29,5 @@ Guides for development in Picotron
 ## Video guides
 
 [Creating a desktop background cartridge](https://youtu.be/iV6Ky3MOFT4)
+
+[Colour Tables; Transparency, Light and Shadows](https://www.youtube.com/watch?v=Z-0EU4DU6RE)
