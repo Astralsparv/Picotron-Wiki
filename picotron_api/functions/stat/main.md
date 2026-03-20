@@ -36,6 +36,7 @@ where c is a channel, addr is an address, n is a node:
 * 64 - user_id of the currently logged in lexaloffle account
 * 65 - username of the currently logged in lexaloffle account
 * 66 - userdata u8 sprite of the currently logged in lexaloffle account
+* 70 - table of the user ids of lexaloffle accounts have been logged into
 * 86 - epoch time
 * 87 - timezone delta (seconds)
 * 101 - web: player cart id (when playing a bbs cart; nil otherwise)
