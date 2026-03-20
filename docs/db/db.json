@@ -1,5 +1,118 @@
 [
   {
+    "name": "readme.md",
+    "path": "/readme.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "Picotron Wiki",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Wiki Information",
+            "content": [
+              "",
+              "Documentation of [Picotron](https://www.lexaloffle.com/picotron.php).",
+              "",
+              "The official Picotron Wiki cart has been released on the [bbs](https://www.lexaloffle.com/bbs/?tid=154532) under the bbs id `#wiki`, more info can be found [here](cart.md)",
+              "",
+              "Information on contribution to documentation is [here](documenting.md)",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Search Engine",
+            "content": [
+              "",
+              "There is a search engine for the Picotron Wiki.",
+              "It can be found [here](https://astralsparv.github.io/Picotron-Wiki/)",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Picotron Information",
+            "content": [
+              "",
+              "Information on Picotron can be found [here](information/whatis.md)",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "System documentation",
+            "content": [
+              "",
+              "System documentation can be found [here](system/readme.md)",
+              "",
+              "Documenting every section of `/system`",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Picotron API",
+            "content": [
+              "",
+              "Documentation on the Picotron API can be found [here](picotron_api/readme.md)",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Environment",
+            "content": [
+              "",
+              "Documentation on the ecosystem/environment of Picotron can be found [here](environment/readme.md)",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Guides",
+            "content": [
+              "",
+              "Guides for Picotron can be found [here](guides/readme.md)",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Contributors",
+            "content": [
+              "",
+              "@Podepi - GUIs",
+              "",
+              "[@KeyboardDanni](https://github.com/KeyboardDanni) - GUI overview",
+              "",
+              "[@abledbody](https://github.com/abledbody) - Userdata",
+              "",
+              "[@akd-io](https://github.com/akd-io) - stat documentation support",
+              "",
+              "[@Maxine](https://github.com/MaxTheMooshroom) - stat documentation support",
+              "",
+              "@bloodninja - 720p upscaler documentation",
+              "",
+              "@Astralsparv - creator/writing up of lots of general things"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "cart.md",
     "path": "/cart.md",
     "data": [
@@ -271,137 +384,6 @@
     ]
   },
   {
-    "name": "main_to_do.md",
-    "path": "/main_to_do.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "to do",
-        "content": [
-          "",
-          "this is features that are more important/requested to be documented",
-          "",
-          "* userdata",
-          "* gui"
-        ],
-        "children": []
-      }
-    ]
-  },
-  {
-    "name": "README.md",
-    "path": "/README.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "Picotron Wiki",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Wiki Information",
-            "content": [
-              "",
-              "Documentation of [Picotron](https://www.lexaloffle.com/picotron.php).",
-              "",
-              "The official Picotron Wiki cart has been released on the [bbs](https://www.lexaloffle.com/bbs/?tid=154532) under the bbs id `#wiki`, more info can be found [here](cart.md)",
-              "",
-              "Information on contribution to documentation is [here](documenting.md)",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Search Engine",
-            "content": [
-              "",
-              "There is a search engine for the Picotron Wiki.",
-              "It can be found [here](https://astralsparv.github.io/Picotron-Wiki/)",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Picotron Information",
-            "content": [
-              "",
-              "Information on Picotron can be found [here](information/whatis.md)",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "System documentation",
-            "content": [
-              "",
-              "System documentation can be found [here](system/readme.md)",
-              "",
-              "Documenting every section of `/system`",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Picotron API",
-            "content": [
-              "",
-              "Documentation on the Picotron API can be found [here](picotron_api/readme.md)",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Environment",
-            "content": [
-              "",
-              "Documentation on the ecosystem/environment of Picotron can be found [here](environment/readme.md)",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Guides",
-            "content": [
-              "",
-              "Guides for Picotron can be found [here](guides/readme.md)",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Contributors",
-            "content": [
-              "",
-              "@Podepi - GUIs",
-              "",
-              "[@KeyboardDanni](https://github.com/KeyboardDanni) - GUI overview",
-              "",
-              "[@abledbody](https://github.com/abledbody) - Userdata",
-              "",
-              "[@akd-io](https://github.com/akd-io) - stat documentation support",
-              "",
-              "[@Maxine](https://github.com/MaxTheMooshroom) - stat documentation support",
-              "",
-              "@bloodninja - 720p upscaler documentation",
-              "",
-              "@Astralsparv - creator/writing up of lots of general things"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "readme.md",
     "path": "/system/readme.md",
     "data": [
@@ -426,6 +408,24 @@
             "children": []
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "main_to_do.md",
+    "path": "/main_to_do.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "to do",
+        "content": [
+          "",
+          "this is features that are more important/requested to be documented",
+          "",
+          "* userdata",
+          "* gui"
+        ],
+        "children": []
       }
     ]
   },
@@ -625,6 +625,32 @@
   },
   {
     "name": "main.md",
+    "path": "/system/details/util/shutdown/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "shutdown",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Shuts down Picotron",
+              "",
+              "Source: [source.lua](source.lua)"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
     "path": "/system/details/util/save/main.md",
     "data": [
       {
@@ -695,11 +721,11 @@
   },
   {
     "name": "main.md",
-    "path": "/system/details/util/shutdown/main.md",
+    "path": "/system/details/util/run/main.md",
     "data": [
       {
         "level": 1,
-        "text": "shutdown",
+        "text": "run",
         "content": [
           ""
         ],
@@ -709,7 +735,7 @@
             "text": "Overview",
             "content": [
               "",
-              "Shuts down Picotron",
+              "Runs the current loaded cartridge (`/ram/cart/`)",
               "",
               "Source: [source.lua](source.lua)"
             ],
@@ -803,32 +829,6 @@
   },
   {
     "name": "main.md",
-    "path": "/system/details/util/run/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "run",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Runs the current loaded cartridge (`/ram/cart/`)",
-              "",
-              "Source: [source.lua](source.lua)"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/system/details/util/reboot/main.md",
     "data": [
       {
@@ -855,32 +855,6 @@
   },
   {
     "name": "main.md",
-    "path": "/system/details/util/pwd/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "pwc",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Returns the current working path",
-              "",
-              "Source: [source.lua](source.lua)"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/system/details/util/pwc/main.md",
     "data": [
       {
@@ -896,6 +870,32 @@
             "content": [
               "",
               "Returns the current loaded cartridge",
+              "",
+              "Source: [source.lua](source.lua)"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/system/details/util/pwd/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "pwc",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Returns the current working path",
               "",
               "Source: [source.lua](source.lua)"
             ],
@@ -1283,51 +1283,6 @@
   },
   {
     "name": "main.md",
-    "path": "/system/details/util/kill/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "kill pid",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Kills (shuts down) the process with the pid `pid`",
-              "",
-              "Source: [source.lua](source.lua)",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Arguments",
-            "content": [
-              ""
-            ],
-            "children": [
-              {
-                "level": 3,
-                "text": "pid",
-                "content": [
-                  "",
-                  "The process id of the process you want to kill"
-                ],
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/system/details/util/load/main.md",
     "data": [
       {
@@ -1383,6 +1338,51 @@
                   "The path, folder or file, to a cartridge",
                   "",
                   "Append with `bbs://` protocol or `#` to load a cartridge from the bbs"
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/system/details/util/kill/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "kill pid",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Kills (shuts down) the process with the pid `pid`",
+              "",
+              "Source: [source.lua](source.lua)",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Arguments",
+            "content": [
+              ""
+            ],
+            "children": [
+              {
+                "level": 3,
+                "text": "pid",
+                "content": [
+                  "",
+                  "The process id of the process you want to kill"
                 ],
                 "children": []
               }
@@ -1537,53 +1537,6 @@
   },
   {
     "name": "main.md",
-    "path": "/system/details/util/edit/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "edit path",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Edit the file specified",
-              "",
-              "Fails if there is no default program to edit it",
-              "",
-              "Source: [source.lua](source.lua)",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Arguments",
-            "content": [
-              ""
-            ],
-            "children": [
-              {
-                "level": 3,
-                "text": "path",
-                "content": [
-                  "",
-                  "Path to the file you want to edit"
-                ],
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/system/details/util/export/main.md",
     "data": [
       {
@@ -1665,6 +1618,53 @@
               "Ability to export from any path, rather than `/ram/cart`"
             ],
             "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/system/details/util/edit/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "edit path",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Edit the file specified",
+              "",
+              "Fails if there is no default program to edit it",
+              "",
+              "Source: [source.lua](source.lua)",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Arguments",
+            "content": [
+              ""
+            ],
+            "children": [
+              {
+                "level": 3,
+                "text": "path",
+                "content": [
+                  "",
+                  "Path to the file you want to edit"
+                ],
+                "children": []
+              }
+            ]
           }
         ]
       }
@@ -2527,143 +2527,6 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/userdata/methods/shr/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "shr(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "Bitshifts elements in the left hand side to the right by elements in the right hand side.",
-              "",
-              "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Arguments",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
-                "content": [
-                  "The left hand side of the bitshift right operation.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
-                "content": [
-                  "The right hand side of the bitshift right operation.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)|true",
-                "content": [
-                  "The destination userdata to write to. Behavior depends on the type of `dest`, `lhs`, and `rhs`. See the table below.",
-                  "",
-                  "|`dest`             |`lhs`       |`rhs`   |written to     |",
-                  "|-------------------|------------|--------|---------------|",
-                  "|userdata           |any         |any     |`dest`         |",
-                  "|truthy non-userdata|userdata    |any     |`lhs`          |",
-                  "|truthy non-userdata|non-userdata|userdata|`rhs`          |",
-                  "|falsey             |userdata    |any     |a copy of `lhs`|",
-                  "|falsey             |non-userdata|userdata|a copy of `rhs`|",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[read_start]`: number",
-                "content": [
-                  "The starting index of the inner loop for `rhs`. Will be floored. Will be clamped to at least 0. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[write_start]`: number",
-                "content": [
-                  "The starting index of the inner loop for `lhs` and the destination userdata. Will be floored. Will be clamped to at least 0. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[group_size]`: number",
-                "content": [
-                  "The number of elements to iterate in the inner loop. Will be floored. A value of 0 or less results in a no-op. Defaults to infinity.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[read_increment]`: number",
-                "content": [
-                  "How many elements to move the group starting index for `rhs` forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[write_increment]`: number",
-                "content": [
-                  "How many elements to move the group starting index for `lhs` and the destination userdata forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[group_count]`: number",
-                "content": [
-                  "How many groups will be iterated over.",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "text": "Returns",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`written`: [userdata](/picotron_api/userdata/readme.md)",
-                "content": [
-                  "The destination userdata, as determined by the `[dest]` argument."
-                ],
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/picotron_api/userdata/methods/transpose/main.md",
     "data": [
       {
@@ -2866,11 +2729,11 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/userdata/methods/sgn0/main.md",
+    "path": "/picotron_api/userdata/methods/shr/main.md",
     "data": [
       {
         "level": 1,
-        "text": "sgn0([lhs], [rhs], [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
+        "text": "shr(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
         "content": [
           ""
         ],
@@ -2879,7 +2742,7 @@
             "level": 2,
             "text": "Overview",
             "content": [
-              "Gets the sign of elements in a userdata, producing -1 for values less than 0, 1 for values greater than 0, and leaving values of 0 untouched.",
+              "Bitshifts elements in the left hand side to the right by elements in the right hand side.",
               "",
               "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
               ""
@@ -2893,18 +2756,18 @@
             "children": [
               {
                 "level": 3,
-                "text": "`[lhs]`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
                 "content": [
-                  "The userdata used as the input for the sign operations.",
+                  "The left hand side of the bitshift right operation.",
                   ""
                 ],
                 "children": []
               },
               {
                 "level": 3,
-                "text": "`[rhs]`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
                 "content": [
-                  "Alternative source userdata. Only used if `lhs` is not a userdata.",
+                  "The right hand side of the bitshift right operation.",
                   ""
                 ],
                 "children": []
@@ -3140,18 +3003,22 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/userdata/methods/set/main.md",
+    "path": "/picotron_api/userdata/methods/sgn0/main.md",
     "data": [
       {
         "level": 1,
-        "text": "userdata:set(i, ...)",
-        "content": [],
+        "text": "sgn0([lhs], [rhs], [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
+        "content": [
+          ""
+        ],
         "children": [
           {
             "level": 2,
             "text": "Overview",
             "content": [
-              "For 1D userdatas, sets one or more values in the userdata starting at index `i`. Will do nothing if the starting index is out of range.",
+              "Gets the sign of elements in a userdata, producing -1 for values less than 0, 1 for values greater than 0, and leaving values of 0 untouched.",
+              "",
+              "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
               ""
             ],
             "children": []
@@ -3163,18 +3030,89 @@
             "children": [
               {
                 "level": 3,
-                "text": "`i`: number",
+                "text": "`[lhs]`: [userdata](/picotron_api/userdata/readme.md)|number",
                 "content": [
-                  "The index to start setting values from. Will be floored.",
+                  "The userdata used as the input for the sign operations.",
                   ""
                 ],
                 "children": []
               },
               {
                 "level": 3,
-                "text": "`...`: number",
+                "text": "`[rhs]`: [userdata](/picotron_api/userdata/readme.md)|number",
                 "content": [
-                  "Each of the arguments to set.",
+                  "Alternative source userdata. Only used if `lhs` is not a userdata.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)|true",
+                "content": [
+                  "The destination userdata to write to. Behavior depends on the type of `dest`, `lhs`, and `rhs`. See the table below.",
+                  "",
+                  "|`dest`             |`lhs`       |`rhs`   |written to     |",
+                  "|-------------------|------------|--------|---------------|",
+                  "|userdata           |any         |any     |`dest`         |",
+                  "|truthy non-userdata|userdata    |any     |`lhs`          |",
+                  "|truthy non-userdata|non-userdata|userdata|`rhs`          |",
+                  "|falsey             |userdata    |any     |a copy of `lhs`|",
+                  "|falsey             |non-userdata|userdata|a copy of `rhs`|",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[read_start]`: number",
+                "content": [
+                  "The starting index of the inner loop for `rhs`. Will be floored. Will be clamped to at least 0. Defaults to 0.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[write_start]`: number",
+                "content": [
+                  "The starting index of the inner loop for `lhs` and the destination userdata. Will be floored. Will be clamped to at least 0. Defaults to 0.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[group_size]`: number",
+                "content": [
+                  "The number of elements to iterate in the inner loop. Will be floored. A value of 0 or less results in a no-op. Defaults to infinity.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[read_increment]`: number",
+                "content": [
+                  "How many elements to move the group starting index for `rhs` forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[write_increment]`: number",
+                "content": [
+                  "How many elements to move the group starting index for `lhs` and the destination userdata forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[group_count]`: number",
+                "content": [
+                  "How many groups will be iterated over.",
                   ""
                 ],
                 "children": []
@@ -3183,90 +3121,18 @@
           },
           {
             "level": 2,
-            "text": "Example",
-            "content": [
-              "```lua",
-              "local ud = userdata(\"f64\", 6)",
-              "ud:set(3, -1, -2, -3)",
-              "",
-              "?ud[0] -- 0",
-              "?ud[1] -- 0",
-              "?ud[2] -- 0",
-              "?ud[3] -- -1",
-              "?ud[4] -- -2",
-              "?ud[5] -- -3",
-              "```",
-              ""
-            ],
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 1,
-        "text": "userdata:set([column], [row], ...)",
-        "content": [],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "For 2D userdatas, sets one or more values in the userdata starting at a specific column and row, enumerating in flat index order. Will do nothing if the starting index is out of range.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Arguments",
+            "text": "Returns",
             "content": [],
             "children": [
               {
                 "level": 3,
-                "text": "`[column]`: number",
+                "text": "`written`: [userdata](/picotron_api/userdata/readme.md)",
                 "content": [
-                  "The horizontal index to start writing values to. Will be floored. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[row]`: number",
-                "content": [
-                  "The vertical index to start writing values to. Will be floored. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`...`: number",
-                "content": [
-                  "Each of the arguments to set.",
-                  ""
+                  "The destination userdata, as determined by the `[dest]` argument."
                 ],
                 "children": []
               }
             ]
-          },
-          {
-            "level": 2,
-            "text": "Example",
-            "content": [
-              "```lua",
-              "local ud = userdata(\"f64\", 2, 3)",
-              "ud:set(0, 1, -12, -32, 10)",
-              "",
-              "?ud:get(0, 0) -- 0",
-              "?ud:get(1, 0) -- 0",
-              "?ud:get(0, 1) -- -12",
-              "?ud:get(1, 1) -- -32",
-              "?ud:get(0, 2) -- 10",
-              "?ud:get(1, 2) -- 0",
-              "```"
-            ],
-            "children": []
           }
         ]
       }
@@ -3411,22 +3277,18 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/userdata/methods/pow/main.md",
+    "path": "/picotron_api/userdata/methods/set/main.md",
     "data": [
       {
         "level": 1,
-        "text": "pow(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
-        "content": [
-          ""
-        ],
+        "text": "userdata:set(i, ...)",
+        "content": [],
         "children": [
           {
             "level": 2,
             "text": "Overview",
             "content": [
-              "Raises elements on the left hand side to the power of elements on the right hand side.",
-              "",
-              "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
+              "For 1D userdatas, sets one or more values in the userdata starting at index `i`. Will do nothing if the starting index is out of range.",
               ""
             ],
             "children": []
@@ -3438,89 +3300,18 @@
             "children": [
               {
                 "level": 3,
-                "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "text": "`i`: number",
                 "content": [
-                  "The left hand side of the exponentiation operation.",
+                  "The index to start setting values from. Will be floored.",
                   ""
                 ],
                 "children": []
               },
               {
                 "level": 3,
-                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "text": "`...`: number",
                 "content": [
-                  "The right hand side of the exponentiation operation.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)|true",
-                "content": [
-                  "The destination userdata to write to. Behavior depends on the type of `dest`, `lhs`, and `rhs`. See the table below.",
-                  "",
-                  "|`dest`             |`lhs`       |`rhs`   |written to     |",
-                  "|-------------------|------------|--------|---------------|",
-                  "|userdata           |any         |any     |`dest`         |",
-                  "|truthy non-userdata|userdata    |any     |`lhs`          |",
-                  "|truthy non-userdata|non-userdata|userdata|`rhs`          |",
-                  "|falsey             |userdata    |any     |a copy of `lhs`|",
-                  "|falsey             |non-userdata|userdata|a copy of `rhs`|",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[read_start]`: number",
-                "content": [
-                  "The starting index of the inner loop for `rhs`. Will be floored. Will be clamped to at least 0. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[write_start]`: number",
-                "content": [
-                  "The starting index of the inner loop for `lhs` and the destination userdata. Will be floored. Will be clamped to at least 0. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[group_size]`: number",
-                "content": [
-                  "The number of elements to iterate in the inner loop. Will be floored. A value of 0 or less results in a no-op. Defaults to infinity.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[read_increment]`: number",
-                "content": [
-                  "How many elements to move the group starting index for `rhs` forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[write_increment]`: number",
-                "content": [
-                  "How many elements to move the group starting index for `lhs` and the destination userdata forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[group_count]`: number",
-                "content": [
-                  "How many groups will be iterated over.",
+                  "Each of the arguments to set.",
                   ""
                 ],
                 "children": []
@@ -3529,41 +3320,35 @@
           },
           {
             "level": 2,
-            "text": "Returns",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`written`: [userdata](/picotron_api/userdata/readme.md)",
-                "content": [
-                  "The destination userdata, as determined by the `[dest]` argument."
-                ],
-                "children": []
-              }
-            ]
+            "text": "Example",
+            "content": [
+              "```lua",
+              "local ud = userdata(\"f64\", 6)",
+              "ud:set(3, -1, -2, -3)",
+              "",
+              "?ud[0] -- 0",
+              "?ud[1] -- 0",
+              "?ud[2] -- 0",
+              "?ud[3] -- -1",
+              "?ud[4] -- -2",
+              "?ud[5] -- -3",
+              "```",
+              ""
+            ],
+            "children": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/userdata/methods/mod/main.md",
-    "data": [
+      },
       {
         "level": 1,
-        "text": "mod(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
-        "content": [
-          ""
-        ],
+        "text": "userdata:set([column], [row], ...)",
+        "content": [],
         "children": [
           {
             "level": 2,
             "text": "Overview",
             "content": [
-              "Calculates the modulo of the elements on the left hand side by elements on the right hand side.",
-              "",
-              "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
+              "For 2D userdatas, sets one or more values in the userdata starting at a specific column and row, enumerating in flat index order. Will do nothing if the starting index is out of range.",
               ""
             ],
             "children": []
@@ -3575,89 +3360,27 @@
             "children": [
               {
                 "level": 3,
-                "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "text": "`[column]`: number",
                 "content": [
-                  "The left hand side of the modulo operation.",
+                  "The horizontal index to start writing values to. Will be floored. Defaults to 0.",
                   ""
                 ],
                 "children": []
               },
               {
                 "level": 3,
-                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "text": "`[row]`: number",
                 "content": [
-                  "The right hand side of the modulo operation.",
+                  "The vertical index to start writing values to. Will be floored. Defaults to 0.",
                   ""
                 ],
                 "children": []
               },
               {
                 "level": 3,
-                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)|true",
+                "text": "`...`: number",
                 "content": [
-                  "The destination userdata to write to. Behavior depends on the type of `dest`, `lhs`, and `rhs`. See the table below.",
-                  "",
-                  "|`dest`             |`lhs`       |`rhs`   |written to     |",
-                  "|-------------------|------------|--------|---------------|",
-                  "|userdata           |any         |any     |`dest`         |",
-                  "|truthy non-userdata|userdata    |any     |`lhs`          |",
-                  "|truthy non-userdata|non-userdata|userdata|`rhs`          |",
-                  "|falsey             |userdata    |any     |a copy of `lhs`|",
-                  "|falsey             |non-userdata|userdata|a copy of `rhs`|",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[read_start]`: number",
-                "content": [
-                  "The starting index of the inner loop for `rhs`. Will be floored. Will be clamped to at least 0. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[write_start]`: number",
-                "content": [
-                  "The starting index of the inner loop for `lhs` and the destination userdata. Will be floored. Will be clamped to at least 0. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[group_size]`: number",
-                "content": [
-                  "The number of elements to iterate in the inner loop. Will be floored. A value of 0 or less results in a no-op. Defaults to infinity.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[read_increment]`: number",
-                "content": [
-                  "How many elements to move the group starting index for `rhs` forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[write_increment]`: number",
-                "content": [
-                  "How many elements to move the group starting index for `lhs` and the destination userdata forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[group_count]`: number",
-                "content": [
-                  "How many groups will be iterated over.",
+                  "Each of the arguments to set.",
                   ""
                 ],
                 "children": []
@@ -3666,18 +3389,21 @@
           },
           {
             "level": 2,
-            "text": "Returns",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`written`: [userdata](/picotron_api/userdata/readme.md)",
-                "content": [
-                  "The destination userdata, as determined by the `[dest]` argument."
-                ],
-                "children": []
-              }
-            ]
+            "text": "Example",
+            "content": [
+              "```lua",
+              "local ud = userdata(\"f64\", 2, 3)",
+              "ud:set(0, 1, -12, -32, 10)",
+              "",
+              "?ud:get(0, 0) -- 0",
+              "?ud:get(1, 0) -- 0",
+              "?ud:get(0, 1) -- -12",
+              "?ud:get(1, 1) -- -32",
+              "?ud:get(0, 2) -- 10",
+              "?ud:get(1, 2) -- 0",
+              "```"
+            ],
+            "children": []
           }
         ]
       }
@@ -3763,11 +3489,11 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/userdata/methods/max/main.md",
+    "path": "/picotron_api/userdata/methods/pow/main.md",
     "data": [
       {
         "level": 1,
-        "text": "max(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
+        "text": "pow(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
         "content": [
           ""
         ],
@@ -3776,7 +3502,7 @@
             "level": 2,
             "text": "Overview",
             "content": [
-              "Gets the largest values between elements on the left and right hand sides.",
+              "Raises elements on the left hand side to the power of elements on the right hand side.",
               "",
               "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
               ""
@@ -3792,7 +3518,7 @@
                 "level": 3,
                 "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
                 "content": [
-                  "The left hand side of the max operation.",
+                  "The left hand side of the exponentiation operation.",
                   ""
                 ],
                 "children": []
@@ -3801,144 +3527,7 @@
                 "level": 3,
                 "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
                 "content": [
-                  "The right hand side of the max operation.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)|true",
-                "content": [
-                  "The destination userdata to write to. Behavior depends on the type of `dest`, `lhs`, and `rhs`. See the table below.",
-                  "",
-                  "|`dest`             |`lhs`       |`rhs`   |written to     |",
-                  "|-------------------|------------|--------|---------------|",
-                  "|userdata           |any         |any     |`dest`         |",
-                  "|truthy non-userdata|userdata    |any     |`lhs`          |",
-                  "|truthy non-userdata|non-userdata|userdata|`rhs`          |",
-                  "|falsey             |userdata    |any     |a copy of `lhs`|",
-                  "|falsey             |non-userdata|userdata|a copy of `rhs`|",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[read_start]`: number",
-                "content": [
-                  "The starting index of the inner loop for `rhs`. Will be floored. Will be clamped to at least 0. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[write_start]`: number",
-                "content": [
-                  "The starting index of the inner loop for `lhs` and the destination userdata. Will be floored. Will be clamped to at least 0. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[group_size]`: number",
-                "content": [
-                  "The number of elements to iterate in the inner loop. Will be floored. A value of 0 or less results in a no-op. Defaults to infinity.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[read_increment]`: number",
-                "content": [
-                  "How many elements to move the group starting index for `rhs` forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[write_increment]`: number",
-                "content": [
-                  "How many elements to move the group starting index for `lhs` and the destination userdata forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[group_count]`: number",
-                "content": [
-                  "How many groups will be iterated over.",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "text": "Returns",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`written`: [userdata](/picotron_api/userdata/readme.md)",
-                "content": [
-                  "The destination userdata, as determined by the `[dest]` argument."
-                ],
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/userdata/methods/min/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "min(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "Gets the smallest values between elements on the left and right hand sides.",
-              "",
-              "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Arguments",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
-                "content": [
-                  "The left hand side of the min operation.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
-                "content": [
-                  "The right hand side of the min operation.",
+                  "The right hand side of the exponentiation operation.",
                   ""
                 ],
                 "children": []
@@ -4174,20 +3763,22 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/userdata/methods/matmul2d/main.md",
+    "path": "/picotron_api/userdata/methods/min/main.md",
     "data": [
       {
         "level": 1,
-        "text": "userdata:matmul2d(rhs, [dest], [batch_height]): ud",
-        "content": [],
+        "text": "min(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
+        "content": [
+          ""
+        ],
         "children": [
           {
             "level": 2,
             "text": "Overview",
             "content": [
-              "Performs a matrix multiplication between two userdatas, where the left-hand side (LHS) has at least two columns, and the right-hand side (RHS) has three rows, and at least two columns. Only elements in the first two columns of the LHS will be transformed in the output, with the remaining columns being untouched. Similarly, only the first two columns of the RHS will contribute to the transformation. There is an implicit third column on the RHS, containing the values (0, 0, 1), representing the W-axis of a homogeneous coordinate system. This is done so that the third row of the RHS can serve as a translation offset.",
+              "Gets the smallest values between elements on the left and right hand sides.",
               "",
-              "This method is especially suitable for 2D graphics transformations. Because of the assumptions this method makes, fewer elements per userdata participate in the multiplication, making this method faster than [`matmul`](/picotron_api/userdata/methods/matmul/main.md). See the [matrix multiplication](/picotron_api/userdata/readme.md#matrix-multiplication) section of the userdata API reference for more information on Picotron's handling of matrices.",
+              "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
               ""
             ],
             "children": []
@@ -4199,33 +3790,89 @@
             "children": [
               {
                 "level": 3,
-                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)",
+                "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
                 "content": [
-                  "The right-hand side of the matrix multiplication.",
+                  "The left hand side of the min operation.",
                   ""
                 ],
                 "children": []
               },
               {
                 "level": 3,
-                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)",
+                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
                 "content": [
-                  "The destination userdata to write the resulting values to.",
+                  "The right hand side of the min operation.",
                   ""
                 ],
                 "children": []
               },
               {
                 "level": 3,
-                "text": "`[batch_height]`: 1|3",
+                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)|true",
                 "content": [
-                  "Whether the LHS represents a set of vectors, or of transformation matrices.",
+                  "The destination userdata to write to. Behavior depends on the type of `dest`, `lhs`, and `rhs`. See the table below.",
                   "",
-                  "When set to 1, the left-hand side will have an implicit third column where each row contains 1, causing translation to be applied to every row.",
-                  "",
-                  "When set to 3, the left-hand side is expected to contain a set of 2x3 matrices stacked vertically, and its implicit third column will contain a repeating sequence of (0, 0, 1), causing translation to only be applied to the translation rows of those matrices.",
-                  "",
-                  "Defaults to 1 or 3, matching the height of the left-hand side. Otherwise the transformation will fail.",
+                  "|`dest`             |`lhs`       |`rhs`   |written to     |",
+                  "|-------------------|------------|--------|---------------|",
+                  "|userdata           |any         |any     |`dest`         |",
+                  "|truthy non-userdata|userdata    |any     |`lhs`          |",
+                  "|truthy non-userdata|non-userdata|userdata|`rhs`          |",
+                  "|falsey             |userdata    |any     |a copy of `lhs`|",
+                  "|falsey             |non-userdata|userdata|a copy of `rhs`|",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[read_start]`: number",
+                "content": [
+                  "The starting index of the inner loop for `rhs`. Will be floored. Will be clamped to at least 0. Defaults to 0.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[write_start]`: number",
+                "content": [
+                  "The starting index of the inner loop for `lhs` and the destination userdata. Will be floored. Will be clamped to at least 0. Defaults to 0.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[group_size]`: number",
+                "content": [
+                  "The number of elements to iterate in the inner loop. Will be floored. A value of 0 or less results in a no-op. Defaults to infinity.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[read_increment]`: number",
+                "content": [
+                  "How many elements to move the group starting index for `rhs` forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[write_increment]`: number",
+                "content": [
+                  "How many elements to move the group starting index for `lhs` and the destination userdata forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[group_count]`: number",
+                "content": [
+                  "How many groups will be iterated over.",
                   ""
                 ],
                 "children": []
@@ -4239,9 +3886,283 @@
             "children": [
               {
                 "level": 3,
-                "text": "`ud`: [userdata](/picotron_api/userdata/readme.md)",
+                "text": "`written`: [userdata](/picotron_api/userdata/readme.md)",
                 "content": [
-                  "`dest` if provided, or a new userdata of the same size as the left-hand side, where the first two columns have been transformed, and the remaining columns are retained from the left-hand side argument. If `[batch_height]` is not provided, and the height of the left hand side is not 1 or 3, returns nil."
+                  "The destination userdata, as determined by the `[dest]` argument."
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/userdata/methods/mod/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "mod(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "Calculates the modulo of the elements on the left hand side by elements on the right hand side.",
+              "",
+              "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Arguments",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "content": [
+                  "The left hand side of the modulo operation.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "content": [
+                  "The right hand side of the modulo operation.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)|true",
+                "content": [
+                  "The destination userdata to write to. Behavior depends on the type of `dest`, `lhs`, and `rhs`. See the table below.",
+                  "",
+                  "|`dest`             |`lhs`       |`rhs`   |written to     |",
+                  "|-------------------|------------|--------|---------------|",
+                  "|userdata           |any         |any     |`dest`         |",
+                  "|truthy non-userdata|userdata    |any     |`lhs`          |",
+                  "|truthy non-userdata|non-userdata|userdata|`rhs`          |",
+                  "|falsey             |userdata    |any     |a copy of `lhs`|",
+                  "|falsey             |non-userdata|userdata|a copy of `rhs`|",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[read_start]`: number",
+                "content": [
+                  "The starting index of the inner loop for `rhs`. Will be floored. Will be clamped to at least 0. Defaults to 0.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[write_start]`: number",
+                "content": [
+                  "The starting index of the inner loop for `lhs` and the destination userdata. Will be floored. Will be clamped to at least 0. Defaults to 0.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[group_size]`: number",
+                "content": [
+                  "The number of elements to iterate in the inner loop. Will be floored. A value of 0 or less results in a no-op. Defaults to infinity.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[read_increment]`: number",
+                "content": [
+                  "How many elements to move the group starting index for `rhs` forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[write_increment]`: number",
+                "content": [
+                  "How many elements to move the group starting index for `lhs` and the destination userdata forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[group_count]`: number",
+                "content": [
+                  "How many groups will be iterated over.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`written`: [userdata](/picotron_api/userdata/readme.md)",
+                "content": [
+                  "The destination userdata, as determined by the `[dest]` argument."
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/userdata/methods/max/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "max(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "Gets the largest values between elements on the left and right hand sides.",
+              "",
+              "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Arguments",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "content": [
+                  "The left hand side of the max operation.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "content": [
+                  "The right hand side of the max operation.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)|true",
+                "content": [
+                  "The destination userdata to write to. Behavior depends on the type of `dest`, `lhs`, and `rhs`. See the table below.",
+                  "",
+                  "|`dest`             |`lhs`       |`rhs`   |written to     |",
+                  "|-------------------|------------|--------|---------------|",
+                  "|userdata           |any         |any     |`dest`         |",
+                  "|truthy non-userdata|userdata    |any     |`lhs`          |",
+                  "|truthy non-userdata|non-userdata|userdata|`rhs`          |",
+                  "|falsey             |userdata    |any     |a copy of `lhs`|",
+                  "|falsey             |non-userdata|userdata|a copy of `rhs`|",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[read_start]`: number",
+                "content": [
+                  "The starting index of the inner loop for `rhs`. Will be floored. Will be clamped to at least 0. Defaults to 0.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[write_start]`: number",
+                "content": [
+                  "The starting index of the inner loop for `lhs` and the destination userdata. Will be floored. Will be clamped to at least 0. Defaults to 0.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[group_size]`: number",
+                "content": [
+                  "The number of elements to iterate in the inner loop. Will be floored. A value of 0 or less results in a no-op. Defaults to infinity.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[read_increment]`: number",
+                "content": [
+                  "How many elements to move the group starting index for `rhs` forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[write_increment]`: number",
+                "content": [
+                  "How many elements to move the group starting index for `lhs` and the destination userdata forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[group_count]`: number",
+                "content": [
+                  "How many groups will be iterated over.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`written`: [userdata](/picotron_api/userdata/readme.md)",
+                "content": [
+                  "The destination userdata, as determined by the `[dest]` argument."
                 ],
                 "children": []
               }
@@ -4321,6 +4242,85 @@
                 "text": "`ud`: [userdata](/picotron_api/userdata/readme.md)",
                 "content": [
                   "`dest` if provided, or a new userdata of the same size as the left-hand side, where the first three columns have been transformed, and the remaining columns are retained from the left-hand side argument. If `[batch_height]` is not provided, and the height of the left hand side is not 1 or 4, returns nil."
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/userdata/methods/matmul2d/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "userdata:matmul2d(rhs, [dest], [batch_height]): ud",
+        "content": [],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "Performs a matrix multiplication between two userdatas, where the left-hand side (LHS) has at least two columns, and the right-hand side (RHS) has three rows, and at least two columns. Only elements in the first two columns of the LHS will be transformed in the output, with the remaining columns being untouched. Similarly, only the first two columns of the RHS will contribute to the transformation. There is an implicit third column on the RHS, containing the values (0, 0, 1), representing the W-axis of a homogeneous coordinate system. This is done so that the third row of the RHS can serve as a translation offset.",
+              "",
+              "This method is especially suitable for 2D graphics transformations. Because of the assumptions this method makes, fewer elements per userdata participate in the multiplication, making this method faster than [`matmul`](/picotron_api/userdata/methods/matmul/main.md). See the [matrix multiplication](/picotron_api/userdata/readme.md#matrix-multiplication) section of the userdata API reference for more information on Picotron's handling of matrices.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Arguments",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)",
+                "content": [
+                  "The right-hand side of the matrix multiplication.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)",
+                "content": [
+                  "The destination userdata to write the resulting values to.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[batch_height]`: 1|3",
+                "content": [
+                  "Whether the LHS represents a set of vectors, or of transformation matrices.",
+                  "",
+                  "When set to 1, the left-hand side will have an implicit third column where each row contains 1, causing translation to be applied to every row.",
+                  "",
+                  "When set to 3, the left-hand side is expected to contain a set of 2x3 matrices stacked vertically, and its implicit third column will contain a repeating sequence of (0, 0, 1), causing translation to only be applied to the translation rows of those matrices.",
+                  "",
+                  "Defaults to 1 or 3, matching the height of the left-hand side. Otherwise the transformation will fail.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`ud`: [userdata](/picotron_api/userdata/readme.md)",
+                "content": [
+                  "`dest` if provided, or a new userdata of the same size as the left-hand side, where the first two columns have been transformed, and the remaining columns are retained from the left-hand side argument. If `[batch_height]` is not provided, and the height of the left hand side is not 1 or 3, returns nil."
                 ],
                 "children": []
               }
@@ -4444,37 +4444,21 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/userdata/methods/dot/main.md",
+    "path": "/picotron_api/userdata/methods/magnitude/main.md",
     "data": [
       {
         "level": 1,
-        "text": "userdata:dot(other): value",
+        "text": "userdata:magnitude(): value",
         "content": [],
         "children": [
           {
             "level": 2,
             "text": "Overview",
             "content": [
-              "Calculates the dot product of the vectors on the first row of two float typed userdatas. The resulting value is the cosine of the angle between the two first-row vectors multiplied by the magnitude of both.",
+              "For float typed userdatas, calculates the magnitude of the first row in Euclidean space.",
               ""
             ],
             "children": []
-          },
-          {
-            "level": 2,
-            "text": "Arguments",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`other`: [userdata](/picotron_api/userdata/readme.md)",
-                "content": [
-                  "The other userdata to perform a dot product with.",
-                  ""
-                ],
-                "children": []
-              }
-            ]
           },
           {
             "level": 2,
@@ -4485,7 +4469,7 @@
                 "level": 3,
                 "text": "`value`: number|nil",
                 "content": [
-                  "The dot product of the vectors in the first row of `self` and `other`, or nil if either is not float typed, or they are not the same width.",
+                  "The magnitude of the first row of the userdata in Euclidean space, or nil if the userdata is not float typed.",
                   ""
                 ],
                 "children": []
@@ -4497,14 +4481,15 @@
             "text": "Example",
             "content": [
               "```lua",
-              "-- Each of these vectors is normalized. This means fully parallel vectors will result in 1.",
-              "local a = vec(-0.47942554, 0.87758256)",
-              "local b = vec(0.87758256, 0.47942554)",
-              "local c = vec(0.9004471, 0.43496553)",
+              "local ud = vec(1, -2, 0.2)",
               "",
-              "assert(a:dot(b) == 0) -- a and b are perpendicular.",
-              "?a:dot(c) -- -0.04997917382977 - a is almost perpendicular with c, facing slightly away.",
-              "?b:dot(c) --  0.99875025526421 - b is almost fully aligned with c.",
+              "local mag = ud:magnitude()",
+              "?mag -- 2.2449944320644...",
+              "",
+              "-- You can normalize a userdata vector by dividing it by its magnitude.",
+              "local normalized = ud / mag",
+              "?normalized -- (0.44543540318737, -0.89087080637475, 0.089087080637475)",
+              "?normalized:magnitude() -- 1.0",
               "```"
             ],
             "children": []
@@ -4652,18 +4637,18 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/userdata/methods/magnitude/main.md",
+    "path": "/picotron_api/userdata/methods/height/main.md",
     "data": [
       {
         "level": 1,
-        "text": "userdata:magnitude(): value",
+        "text": "userdata:height(): height",
         "content": [],
         "children": [
           {
             "level": 2,
             "text": "Overview",
             "content": [
-              "For float typed userdatas, calculates the magnitude of the first row in Euclidean space.",
+              "Gets the height of the userdata.",
               ""
             ],
             "children": []
@@ -4675,9 +4660,9 @@
             "children": [
               {
                 "level": 3,
-                "text": "`value`: number|nil",
+                "text": "`height`: integer|nil",
                 "content": [
-                  "The magnitude of the first row of the userdata in Euclidean space, or nil if the userdata is not float typed.",
+                  "The number of rows in the userdata if the userdata is 2D, or nil if the userdata is 1D.",
                   ""
                 ],
                 "children": []
@@ -4689,15 +4674,20 @@
             "text": "Example",
             "content": [
               "```lua",
-              "local ud = vec(1, -2, 0.2)",
+              "-- Be careful when reading the height of a userdata. It can be nil.",
+              "local h = ud:height()",
               "",
-              "local mag = ud:magnitude()",
-              "?mag -- 2.2449944320644...",
-              "",
-              "-- You can normalize a userdata vector by dividing it by its magnitude.",
-              "local normalized = ud / mag",
-              "?normalized -- (0.44543540318737, -0.89087080637475, 0.089087080637475)",
-              "?normalized:magnitude() -- 1.0",
+              "if h then",
+              "\tfor y = 0, h - 1 do",
+              "\t\tfor x = 0, ud:width() - 1 do",
+              "\t\t\t?ud:get(x, y)",
+              "\t\tend",
+              "\tend",
+              "else",
+              "\tfor x = 0, ud:width() - 1 do",
+              "\t\t?ud:get(x)",
+              "\tend",
+              "end",
               "```"
             ],
             "children": []
@@ -4906,6 +4896,273 @@
   },
   {
     "name": "main.md",
+    "path": "/picotron_api/userdata/methods/dot/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "userdata:dot(other): value",
+        "content": [],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "Calculates the dot product of the vectors on the first row of two float typed userdatas. The resulting value is the cosine of the angle between the two first-row vectors multiplied by the magnitude of both.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Arguments",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`other`: [userdata](/picotron_api/userdata/readme.md)",
+                "content": [
+                  "The other userdata to perform a dot product with.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`value`: number|nil",
+                "content": [
+                  "The dot product of the vectors in the first row of `self` and `other`, or nil if either is not float typed, or they are not the same width.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Example",
+            "content": [
+              "```lua",
+              "-- Each of these vectors is normalized. This means fully parallel vectors will result in 1.",
+              "local a = vec(-0.47942554, 0.87758256)",
+              "local b = vec(0.87758256, 0.47942554)",
+              "local c = vec(0.9004471, 0.43496553)",
+              "",
+              "assert(a:dot(b) == 0) -- a and b are perpendicular.",
+              "?a:dot(c) -- -0.04997917382977 - a is almost perpendicular with c, facing slightly away.",
+              "?b:dot(c) --  0.99875025526421 - b is almost fully aligned with c.",
+              "```"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/userdata/methods/div/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "div(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "Divides elements on the left hand side by elements on the right hand side.",
+              "",
+              "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Arguments",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "content": [
+                  "The left hand side of the division operation.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
+                "content": [
+                  "The right hand side of the division operation.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)|true",
+                "content": [
+                  "The destination userdata to write to. Behavior depends on the type of `dest`, `lhs`, and `rhs`. See the table below.",
+                  "",
+                  "|`dest`             |`lhs`       |`rhs`   |written to     |",
+                  "|-------------------|------------|--------|---------------|",
+                  "|userdata           |any         |any     |`dest`         |",
+                  "|truthy non-userdata|userdata    |any     |`lhs`          |",
+                  "|truthy non-userdata|non-userdata|userdata|`rhs`          |",
+                  "|falsey             |userdata    |any     |a copy of `lhs`|",
+                  "|falsey             |non-userdata|userdata|a copy of `rhs`|",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[read_start]`: number",
+                "content": [
+                  "The starting index of the inner loop for `rhs`. Will be floored. Will be clamped to at least 0. Defaults to 0.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[write_start]`: number",
+                "content": [
+                  "The starting index of the inner loop for `lhs` and the destination userdata. Will be floored. Will be clamped to at least 0. Defaults to 0.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[group_size]`: number",
+                "content": [
+                  "The number of elements to iterate in the inner loop. Will be floored. A value of 0 or less results in a no-op. Defaults to infinity.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[read_increment]`: number",
+                "content": [
+                  "How many elements to move the group starting index for `rhs` forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[write_increment]`: number",
+                "content": [
+                  "How many elements to move the group starting index for `lhs` and the destination userdata forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`[group_count]`: number",
+                "content": [
+                  "How many groups will be iterated over.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`written`: [userdata](/picotron_api/userdata/readme.md)",
+                "content": [
+                  "The destination userdata, as determined by the `[dest]` argument."
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/userdata/methods/distance/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "userdata:distance(other): value",
+        "content": [],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "Calculates the distance between the first row of two float typed userdatas in Euclidean space.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`value`: number|nil",
+                "content": [
+                  "The distance between the vector in the first row of `self` and `other`, or nil if either is not float typed.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Example",
+            "content": [
+              "```lua",
+              "local a = vec(0.07, -0.5, 0.7)",
+              "local b = vec(0.01, 0.3, 0.26)",
+              "local c = vec(0.64, 0.4, -0.3)",
+              "",
+              "?a:distance(b) -- 0.91498636284299",
+              "assert(a:distance(b) < 1)",
+              "",
+              "?b:distance(c) -- 0.8488227156569",
+              "assert(b:distance(c) < 1)",
+              "",
+              "?a:distance(c) -- 1.4611296807837",
+              "assert(a:distance(c) > 1)",
+              "```"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
     "path": "/picotron_api/userdata/methods/cross/main.md",
     "data": [
       {
@@ -4978,21 +5235,37 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/userdata/methods/distance/main.md",
+    "path": "/picotron_api/userdata/methods/column/main.md",
     "data": [
       {
         "level": 1,
-        "text": "userdata:distance(other): value",
+        "text": "userdata:column(column_i): column_ud",
         "content": [],
         "children": [
           {
             "level": 2,
             "text": "Overview",
             "content": [
-              "Calculates the distance between the first row of two float typed userdatas in Euclidean space.",
+              "Creates a new 2D userdata containing a single column from the given userdata.",
               ""
             ],
             "children": []
+          },
+          {
+            "level": 2,
+            "text": "Arguments",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`column_i`: integer",
+                "content": [
+                  "The index of the column to fetch.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
           },
           {
             "level": 2,
@@ -5001,9 +5274,9 @@
             "children": [
               {
                 "level": 3,
-                "text": "`value`: number|nil",
+                "text": "`column_ud`: userdata",
                 "content": [
-                  "The distance between the vector in the first row of `self` and `other`, or nil if either is not float typed.",
+                  "A 2D userdata with a width of 1 and the height and type of the original userdata.",
                   ""
                 ],
                 "children": []
@@ -5015,79 +5288,20 @@
             "text": "Example",
             "content": [
               "```lua",
-              "local a = vec(0.07, -0.5, 0.7)",
-              "local b = vec(0.01, 0.3, 0.26)",
-              "local c = vec(0.64, 0.4, -0.3)",
+              "-- 01 02 03",
+              "-- 04 05 06",
+              "local ud = userdata(\"u8\", 3, 2, \"010203040506\")",
+              "local ud_w, ud_h, ud_t = ud:attribs()",
               "",
-              "?a:distance(b) -- 0.91498636284299",
-              "assert(a:distance(b) < 1)",
+              "local column = ud:column(1)",
+              "local column_w, column_h, column_t = column:attribs()",
               "",
-              "?b:distance(c) -- 0.8488227156569",
-              "assert(b:distance(c) < 1)",
+              "assert(column_h == ud_h)",
+              "assert(column_w == 1)",
+              "assert(column_t == ud_t)",
               "",
-              "?a:distance(c) -- 1.4611296807837",
-              "assert(a:distance(c) > 1)",
-              "```"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/userdata/methods/height/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "userdata:height(): height",
-        "content": [],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "Gets the height of the userdata.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Returns",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`height`: integer|nil",
-                "content": [
-                  "The number of rows in the userdata if the userdata is 2D, or nil if the userdata is 1D.",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "text": "Example",
-            "content": [
-              "```lua",
-              "-- Be careful when reading the height of a userdata. It can be nil.",
-              "local h = ud:height()",
-              "",
-              "if h then",
-              "\tfor y = 0, h - 1 do",
-              "\t\tfor x = 0, ud:width() - 1 do",
-              "\t\t\t?ud:get(x, y)",
-              "\t\tend",
-              "\tend",
-              "else",
-              "\tfor x = 0, ud:width() - 1 do",
-              "\t\t?ud:get(x)",
-              "\tend",
-              "end",
+              "assert(column[0] == 2)",
+              "assert(column[1] == 5)",
               "```"
             ],
             "children": []
@@ -5372,289 +5586,6 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/userdata/methods/div/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "div(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "Divides elements on the left hand side by elements on the right hand side.",
-              "",
-              "This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Arguments",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`lhs`: [userdata](/picotron_api/userdata/readme.md)|number",
-                "content": [
-                  "The left hand side of the division operation.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`rhs`: [userdata](/picotron_api/userdata/readme.md)|number",
-                "content": [
-                  "The right hand side of the division operation.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[dest]`: [userdata](/picotron_api/userdata/readme.md)|true",
-                "content": [
-                  "The destination userdata to write to. Behavior depends on the type of `dest`, `lhs`, and `rhs`. See the table below.",
-                  "",
-                  "|`dest`             |`lhs`       |`rhs`   |written to     |",
-                  "|-------------------|------------|--------|---------------|",
-                  "|userdata           |any         |any     |`dest`         |",
-                  "|truthy non-userdata|userdata    |any     |`lhs`          |",
-                  "|truthy non-userdata|non-userdata|userdata|`rhs`          |",
-                  "|falsey             |userdata    |any     |a copy of `lhs`|",
-                  "|falsey             |non-userdata|userdata|a copy of `rhs`|",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[read_start]`: number",
-                "content": [
-                  "The starting index of the inner loop for `rhs`. Will be floored. Will be clamped to at least 0. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[write_start]`: number",
-                "content": [
-                  "The starting index of the inner loop for `lhs` and the destination userdata. Will be floored. Will be clamped to at least 0. Defaults to 0.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[group_size]`: number",
-                "content": [
-                  "The number of elements to iterate in the inner loop. Will be floored. A value of 0 or less results in a no-op. Defaults to infinity.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[read_increment]`: number",
-                "content": [
-                  "How many elements to move the group starting index for `rhs` forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[write_increment]`: number",
-                "content": [
-                  "How many elements to move the group starting index for `lhs` and the destination userdata forward by. A value of less than 0 will result in no iteration. Will be floored. Defaults to 1.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`[group_count]`: number",
-                "content": [
-                  "How many groups will be iterated over.",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "text": "Returns",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`written`: [userdata](/picotron_api/userdata/readme.md)",
-                "content": [
-                  "The destination userdata, as determined by the `[dest]` argument."
-                ],
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/userdata/methods/column/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "userdata:column(column_i): column_ud",
-        "content": [],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "Creates a new 2D userdata containing a single column from the given userdata.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Arguments",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`column_i`: integer",
-                "content": [
-                  "The index of the column to fetch.",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "text": "Returns",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`column_ud`: userdata",
-                "content": [
-                  "A 2D userdata with a width of 1 and the height and type of the original userdata.",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "text": "Example",
-            "content": [
-              "```lua",
-              "-- 01 02 03",
-              "-- 04 05 06",
-              "local ud = userdata(\"u8\", 3, 2, \"010203040506\")",
-              "local ud_w, ud_h, ud_t = ud:attribs()",
-              "",
-              "local column = ud:column(1)",
-              "local column_w, column_h, column_t = column:attribs()",
-              "",
-              "assert(column_h == ud_h)",
-              "assert(column_w == 1)",
-              "assert(column_t == ud_t)",
-              "",
-              "assert(column[0] == 2)",
-              "assert(column[1] == 5)",
-              "```"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/userdata/methods/attribs/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "userdata:attribs(): width, height, type",
-        "content": [],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "Gets the width, height, and type of the userdata.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Returns",
-            "content": [],
-            "children": [
-              {
-                "level": 3,
-                "text": "`width`: integer",
-                "content": [
-                  "The number of columns in the userdata.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`height`: integer",
-                "content": [
-                  "The number of rows in the userdata. Unlike the [`height`](/picotron_api/userdata/methods/height/main.md) method, 1D userdatas will return 1 for this value.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`type`: \"u8\"|\"i16\"|\"i32\"|\"i64\"|\"f64\"",
-                "content": [
-                  "The type that the userdata contains as its string name.",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "text": "Example",
-            "content": [
-              "```lua",
-              "local function clone_empty(ud)",
-              "\tlocal width, height, ud_type = ud:attribs()",
-              "\treturn userdata(ud_type, width, height)",
-              "end",
-              "```"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/picotron_api/userdata/methods/band/main.md",
     "data": [
       {
@@ -5785,6 +5716,75 @@
                 "children": []
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/userdata/methods/attribs/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "userdata:attribs(): width, height, type",
+        "content": [],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "Gets the width, height, and type of the userdata.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [],
+            "children": [
+              {
+                "level": 3,
+                "text": "`width`: integer",
+                "content": [
+                  "The number of columns in the userdata.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`height`: integer",
+                "content": [
+                  "The number of rows in the userdata. Unlike the [`height`](/picotron_api/userdata/methods/height/main.md) method, 1D userdatas will return 1 for this value.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`type`: \"u8\"|\"i16\"|\"i32\"|\"i64\"|\"f64\"",
+                "content": [
+                  "The type that the userdata contains as its string name.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Example",
+            "content": [
+              "```lua",
+              "local function clone_empty(ud)",
+              "\tlocal width, height, ud_type = ud:attribs()",
+              "\treturn userdata(ud_type, width, height)",
+              "end",
+              "```"
+            ],
+            "children": []
           }
         ]
       }
@@ -6140,186 +6140,6 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/memory/wavetable_data/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "0xf00000 ~ 0xffffff Wavetable data",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "The memory location for wavetables for Picotron's audio system"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "readme.md",
-    "path": "/picotron_api/memory/readme.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "Picotron Memory Layout",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Picotron has 16MB of addressable RAM (`0x000000..0xffffff`), that can be manipulated using standard memory functions ( [poke](/picotron_api/poke/main.md), [memset](/picotron_api/memset/main.md) etc).",
-              "",
-              "Most of the values at the following special addresses can be manipulated using API functions (e.g.[pal()](/picotron_api/functions/pal/main.md) writes values to the colour tables), but they can also be manipulated directly in memory for greater control.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Layout",
-            "content": [
-              "",
-              "[0x000000 ~ 0x003fff Legacy PICO-8 range](legacy_pico8_range/main.md)",
-              "",
-              "[0x004000 ~ 0x0047ff Primary P8SCII Font (2k)](primary_p8scii_font/main.md)",
-              "",
-              "[0x005000 ~ 0x0053ff ARGB display palettes (1k)](argb_display_palettes/main.md)",
-              "",
-              "[0x005400 ~ 0x005477 Per-scanline rgb display palette selection (120 bytes)](perscanline_rgb_display_palette_selection/main.md)",
-              "",
-              "[0x005480 ~ 0x0054bf Indexed display palette (64 bytes)](indexed_display_palette/main.md)",
-              "",
-              "[0x0054c0 ~ 0x00553f Misc draw state (128 bytes)](misc_draw_state/main.md)",
-              "",
-              "[0x005580 ~ 0x0055ff Raw controller state (128 bytes)](raw_controller_state/main.md)",
-              "",
-              "[0x005600 ~ 0x005dff Secondary P8SCII font (2k)](secondary_p8scii_font/main.md)",
-              "",
-              "[0X005e00 ~ 0x005eff Reserved: P8 persistent state (256 bytes)](reserved_pico8_persistent_state/main.md)",
-              "",
-              "[0x005f00 ~ 0x005f7f P8 draw State (some used by Picotron)](pico8_draw_state/main.md)",
-              "",
-              "[0x005f80 ~ 0x007fff Reserved: legacy P8 gpio, video memory](legacy_pico8_gpio__video_memory/main.md)",
-              "",
-              "[0x008000 ~ 0x00bfff Colour tables (16k)](colour_tables/main.md)",
-              "",
-              "0x00c000 ~ 0x00ffff Reserved (16k)",
-              "",
-              "[0x010000 ~ 0x02ffff Display / Draw Target (128k)](draw_target/main.md)",
-              "",
-              "[0x030000 ~ 0x07ffff Default audio data range](default_audio_data_range/main.md)",
-              "",
-              "[0x100000 ~ 0x1fffff Default map](default_map/main.md)",
-              "",
-              "0x200000 ~ 0xefffff Unreserved",
-              "",
-              "[0xf00000 ~ 0xffffff Wavetable data](wavetable_data/main.md)",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Other Memory locations",
-            "content": [
-              ""
-            ],
-            "children": [
-              {
-                "level": 3,
-                "text": "Audio state",
-                "content": [
-                  "",
-                  "0x5538. app sfx_vol  //  0x80 means 1.0",
-                  "0x5539. app music_vol//  0x80 means 1.0",
-                  "0x553a. sfx vol  //  chan->mix_vol for next play",
-                  "0x553b. unused",
-                  "0x553c. sfx base_addr//  for next play. `0x3` means `0x30000`",
-                  "0x553d. music base_addr  //  for next play. can also set with [music()](/picotron_api/functions/music/main.md)",
-                  "0x553e. unused(2)",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/memory/secondary_p8scii_font/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "0x005600 ~ 0x005dff Secondary P8SCII font (2k)",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "The seconday P8SCII font, use is triggered by prepending a string with `\\014`.",
-              "",
-              "The default secondary font loaded is `/system/fonts/p8.font`",
-              "",
-              "Custom fonts can be be used by directly poking the RAM value (see below), or by loading a 2k block userdata:",
-              "",
-              "```lua",
-              "fetch(\"/system/fonts/lil_mono.font\"):poke(0x5600)",
-              "```",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Structure",
-            "content": [
-              "",
-              "A font in Picotron roughly follows the PICO-8 format: a 2k block of data that encodes 256 8x8 character bitmaps.",
-              "",
-              "Each character is an 8x8 bitfield (1 bit/pixel), where starting from the top, each row is a single byte starting with 0x1 on the left.",
-              "",
-              "The first 128 bytes (characters 0~15 are never drawn) describe attributes of the font:",
-              "",
-              "0x5600. character width in pixels (can be more than 8, but only 8 pixels are drawn)",
-              "0x5601. character width for character 128 and above",
-              "0x5602. character height in pixels",
-              "0x5603. draw offset x",
-              "0x5604. draw offset y",
-              "0x5605. flags: 0x1 apply_size_adjustments  0x2: apply tabs relative to cursor home",
-              "0x5606. tab width in pixels (used only when alt font is drawn)",
-              "0x5607. unused",
-              "",
-              "The remaining 120 bytes are used to adjust the width and vertical offset of characters 16..255. Each nibble (low nibbles first) describes the adjustments for one characters:",
-              "",
-              "bits 0x7: adjust character width by 0,1,2,3,-4,-3,-2,-1",
-              "bit  0x8: when set, draw the character one pixel higher (useful for latin accents)"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/picotron_api/picotron_lua/main.md",
     "data": [
       {
@@ -6632,6 +6452,186 @@
     ]
   },
   {
+    "name": "readme.md",
+    "path": "/picotron_api/memory/readme.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "Picotron Memory Layout",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Picotron has 16MB of addressable RAM (`0x000000..0xffffff`), that can be manipulated using standard memory functions ( [poke](/picotron_api/poke/main.md), [memset](/picotron_api/memset/main.md) etc).",
+              "",
+              "Most of the values at the following special addresses can be manipulated using API functions (e.g.[pal()](/picotron_api/functions/pal/main.md) writes values to the colour tables), but they can also be manipulated directly in memory for greater control.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Layout",
+            "content": [
+              "",
+              "[0x000000 ~ 0x003fff Legacy PICO-8 range](legacy_pico8_range/main.md)",
+              "",
+              "[0x004000 ~ 0x0047ff Primary P8SCII Font (2k)](primary_p8scii_font/main.md)",
+              "",
+              "[0x005000 ~ 0x0053ff ARGB display palettes (1k)](argb_display_palettes/main.md)",
+              "",
+              "[0x005400 ~ 0x005477 Per-scanline rgb display palette selection (120 bytes)](perscanline_rgb_display_palette_selection/main.md)",
+              "",
+              "[0x005480 ~ 0x0054bf Indexed display palette (64 bytes)](indexed_display_palette/main.md)",
+              "",
+              "[0x0054c0 ~ 0x00553f Misc draw state (128 bytes)](misc_draw_state/main.md)",
+              "",
+              "[0x005580 ~ 0x0055ff Raw controller state (128 bytes)](raw_controller_state/main.md)",
+              "",
+              "[0x005600 ~ 0x005dff Secondary P8SCII font (2k)](secondary_p8scii_font/main.md)",
+              "",
+              "[0X005e00 ~ 0x005eff Reserved: P8 persistent state (256 bytes)](reserved_pico8_persistent_state/main.md)",
+              "",
+              "[0x005f00 ~ 0x005f7f P8 draw State (some used by Picotron)](pico8_draw_state/main.md)",
+              "",
+              "[0x005f80 ~ 0x007fff Reserved: legacy P8 gpio, video memory](legacy_pico8_gpio__video_memory/main.md)",
+              "",
+              "[0x008000 ~ 0x00bfff Colour tables (16k)](colour_tables/main.md)",
+              "",
+              "0x00c000 ~ 0x00ffff Reserved (16k)",
+              "",
+              "[0x010000 ~ 0x02ffff Display / Draw Target (128k)](draw_target/main.md)",
+              "",
+              "[0x030000 ~ 0x07ffff Default audio data range](default_audio_data_range/main.md)",
+              "",
+              "[0x100000 ~ 0x1fffff Default map](default_map/main.md)",
+              "",
+              "0x200000 ~ 0xefffff Unreserved",
+              "",
+              "[0xf00000 ~ 0xffffff Wavetable data](wavetable_data/main.md)",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Other Memory locations",
+            "content": [
+              ""
+            ],
+            "children": [
+              {
+                "level": 3,
+                "text": "Audio state",
+                "content": [
+                  "",
+                  "0x5538. app sfx_vol  //  0x80 means 1.0",
+                  "0x5539. app music_vol//  0x80 means 1.0",
+                  "0x553a. sfx vol  //  chan->mix_vol for next play",
+                  "0x553b. unused",
+                  "0x553c. sfx base_addr//  for next play. `0x3` means `0x30000`",
+                  "0x553d. music base_addr  //  for next play. can also set with [music()](/picotron_api/functions/music/main.md)",
+                  "0x553e. unused(2)",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/memory/wavetable_data/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "0xf00000 ~ 0xffffff Wavetable data",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "The memory location for wavetables for Picotron's audio system"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/memory/secondary_p8scii_font/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "0x005600 ~ 0x005dff Secondary P8SCII font (2k)",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "The seconday P8SCII font, use is triggered by prepending a string with `\\014`.",
+              "",
+              "The default secondary font loaded is `/system/fonts/p8.font`",
+              "",
+              "Custom fonts can be be used by directly poking the RAM value (see below), or by loading a 2k block userdata:",
+              "",
+              "```lua",
+              "fetch(\"/system/fonts/lil_mono.font\"):poke(0x5600)",
+              "```",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Structure",
+            "content": [
+              "",
+              "A font in Picotron roughly follows the PICO-8 format: a 2k block of data that encodes 256 8x8 character bitmaps.",
+              "",
+              "Each character is an 8x8 bitfield (1 bit/pixel), where starting from the top, each row is a single byte starting with 0x1 on the left.",
+              "",
+              "The first 128 bytes (characters 0~15 are never drawn) describe attributes of the font:",
+              "",
+              "0x5600. character width in pixels (can be more than 8, but only 8 pixels are drawn)",
+              "0x5601. character width for character 128 and above",
+              "0x5602. character height in pixels",
+              "0x5603. draw offset x",
+              "0x5604. draw offset y",
+              "0x5605. flags: 0x1 apply_size_adjustments  0x2: apply tabs relative to cursor home",
+              "0x5606. tab width in pixels (used only when alt font is drawn)",
+              "0x5607. unused",
+              "",
+              "The remaining 120 bytes are used to adjust the width and vertical offset of characters 16..255. Each nibble (low nibbles first) describes the adjustments for one characters:",
+              "",
+              "bits 0x7: adjust character width by 0,1,2,3,-4,-3,-2,-1",
+              "bit  0x8: when set, draw the character one pixel higher (useful for latin accents)"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "main.md",
     "path": "/picotron_api/memory/reserved_pico8_persistent_state/main.md",
     "data": [
@@ -6745,30 +6745,6 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/memory/perscanline_rgb_display_palette_selection/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "0x005400 ~ 0x005477 Per-scanline rgb display palette selection (120 bytes)",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "The per-scanline rgb display palette selection"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/picotron_api/memory/pico8_draw_state/main.md",
     "data": [
       {
@@ -6795,6 +6771,30 @@
   },
   {
     "name": "main.md",
+    "path": "/picotron_api/memory/perscanline_rgb_display_palette_selection/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "0x005400 ~ 0x005477 Per-scanline rgb display palette selection (120 bytes)",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "The per-scanline rgb display palette selection"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
     "path": "/picotron_api/memory/misc_draw_state/main.md",
     "data": [
       {
@@ -6810,6 +6810,30 @@
             "content": [
               "",
               "The miscellaneous draw state"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/memory/legacy_pico8_range/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "0x000000 ~ 0x003fff Legacy PICO-8 range",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "The legacy Pico 8 memory (16K)"
             ],
             "children": []
           }
@@ -6867,30 +6891,6 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/memory/legacy_pico8_range/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "0x000000 ~ 0x003fff Legacy PICO-8 range",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "The legacy Pico 8 memory (16K)"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/picotron_api/memory/draw_target/main.md",
     "data": [
       {
@@ -6939,30 +6939,6 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/memory/argb_display_palettes/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "0x005000 ~ 0x0053ff ARGB display palettes (1k)",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "The ARGB display palettes"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/picotron_api/memory/default_audio_data_range/main.md",
     "data": [
       {
@@ -6980,6 +6956,54 @@
               "The default audio data range of Picotron's sound system.",
               "",
               ""
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/memory/colour_tables/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "0x008000 ~ 0x00bfff Colour tables (16k)",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Colour tables allowing for powerful graphics to be achieved"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/memory/argb_display_palettes/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "0x005000 ~ 0x0053ff ARGB display palettes (1k)",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "The ARGB display palettes"
             ],
             "children": []
           }
@@ -7079,30 +7103,6 @@
               "map()  -- same as map(mymap)",
               "?mget(2,2) -- same as mymap:get(2,2)",
               "```"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/memory/colour_tables/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "0x008000 ~ 0x00bfff Colour tables (16k)",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Colour tables allowing for powerful graphics to be achieved"
             ],
             "children": []
           }
@@ -7402,6 +7402,87 @@
               "[attach_text_editor](attach_text_editor/main.md)"
             ],
             "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/gui/methods/detach/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "gui_el:detach()",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Remove self (gui_el) from the parent's list of child elements.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [
+              ""
+            ],
+            "children": [
+              {
+                "level": 3,
+                "text": "`detached`: table",
+                "content": [
+                  "",
+                  "The detached element.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "text": "gui_el:detach(el)",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Detach element `el` from self's list of child elements.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [
+              ""
+            ],
+            "children": [
+              {
+                "level": 3,
+                "text": "`detached`: table",
+                "content": [
+                  "",
+                  "The detached element."
+                ],
+                "children": []
+              }
+            ]
           }
         ]
       }
@@ -7738,12 +7819,12 @@
     ]
   },
   {
-    "name": "main.md",
-    "path": "/picotron_api/gui/methods/detach/main.md",
+    "name": "readme.md",
+    "path": "/picotron_api/gui/methods/attach_text_editor/methods/readme.md",
     "data": [
       {
         "level": 1,
-        "text": "gui_el:detach()",
+        "text": "GUI > Text Editor > Additional Methods",
         "content": [
           ""
         ],
@@ -7753,66 +7834,25 @@
             "text": "Overview",
             "content": [
               "",
-              "Remove self (gui_el) from the parent's list of child elements.",
+              "The text editor GUI element has some additional methods, mainly for interacting with the cursor and text",
               ""
             ],
             "children": []
           },
           {
             "level": 2,
-            "text": "Returns",
-            "content": [
-              ""
-            ],
-            "children": [
-              {
-                "level": 3,
-                "text": "`detached`: table",
-                "content": [
-                  "",
-                  "The detached element.",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": 1,
-        "text": "gui_el:detach(el)",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
+            "text": "Methods",
             "content": [
               "",
-              "Detach element `el` from self's list of child elements.",
-              ""
+              "[get_text](get_text/main.md)",
+              "",
+              "[set_text](set_text/main.md)",
+              "",
+              "[get_cursor](get_cursor/main.md)",
+              "",
+              "[set_cursor](set_cursor/main.md)"
             ],
             "children": []
-          },
-          {
-            "level": 2,
-            "text": "Returns",
-            "content": [
-              ""
-            ],
-            "children": [
-              {
-                "level": 3,
-                "text": "`detached`: table",
-                "content": [
-                  "",
-                  "The detached element."
-                ],
-                "children": []
-              }
-            ]
           }
         ]
       }
@@ -7881,91 +7921,6 @@
     ]
   },
   {
-    "name": "readme.md",
-    "path": "/picotron_api/gui/methods/attach_text_editor/methods/readme.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "GUI > Text Editor > Additional Methods",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "The text editor GUI element has some additional methods, mainly for interacting with the cursor and text",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Methods",
-            "content": [
-              "",
-              "[get_text](get_text/main.md)",
-              "",
-              "[set_text](set_text/main.md)",
-              "",
-              "[get_cursor](get_cursor/main.md)",
-              "",
-              "[set_cursor](set_cursor/main.md)"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/gui/methods/attach_text_editor/methods/get_text/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "text_editor:get_text(): str_tbl",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Returns the text in the text editor as a table, each line being another element in the table.",
-              "",
-              "To get the text as a single string: `table.concat(el:get_text(), \"\\n\")`",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Returns",
-            "content": [
-              ""
-            ],
-            "children": [
-              {
-                "level": 3,
-                "text": "`str_tbl`: table",
-                "content": [
-                  "",
-                  "Text in a table; each line is another element in the table."
-                ],
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "main.md",
     "path": "/picotron_api/gui/methods/attach_text_editor/methods/set_cursor/main.md",
     "data": [
@@ -8009,6 +7964,51 @@
                 "content": [
                   "",
                   "The cursor's new y-position"
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/gui/methods/attach_text_editor/methods/get_text/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "text_editor:get_text(): str_tbl",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Returns the text in the text editor as a table, each line being another element in the table.",
+              "",
+              "To get the text as a single string: `table.concat(el:get_text(), \"\\n\")`",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [
+              ""
+            ],
+            "children": [
+              {
+                "level": 3,
+                "text": "`str_tbl`: table",
+                "content": [
+                  "",
+                  "Text in a table; each line is another element in the table."
                 ],
                 "children": []
               }
@@ -8066,126 +8066,6 @@
                 "children": []
               }
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/gui/methods/attach_pulldown_item/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "gui_el:attach_pulldown_item([attribs])",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Attach a pulldown item to a [pulldown element](/picotron_api/gui/methods/attach_pulldown/main.md)",
-              "",
-              "The height is automatically determined by the number of items.",
-              "",
-              "Pulldown items can also have unique attributes; the same thing used by menus created with [menuitem](/picotron_api/functions/menuitem/main.md):",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Attributes",
-            "content": [
-              ""
-            ],
-            "children": [
-              {
-                "level": 3,
-                "text": "`label`: string",
-                "content": [
-                  "Label for the element",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`shortcut`: string",
-                "content": [
-                  "",
-                  "Text on the right showing a keyboard shortcut (e.g. \"CTRL-A\")",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "`stay_open`: boolean",
-                "content": [
-                  "",
-                  "When true, the pulldown does not automatically close on selection",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "text": "Arguments",
-            "content": [
-              ""
-            ],
-            "children": [
-              {
-                "level": 3,
-                "text": "`[attribs]`: table",
-                "content": [
-                  "",
-                  "Generic GUI attributes alongside:",
-                  ""
-                ],
-                "children": [
-                  {
-                    "level": 4,
-                    "text": "`onclose`: function",
-                    "content": [
-                      "",
-                      "A callback function when the pulldown is closed/dismissed",
-                      ""
-                    ],
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "text": "Examples",
-            "content": [
-              "",
-              "Sourced from the [Picotron Manual](https://www.lexaloffle.com/dl/docs/picotron_manual.html)",
-              "",
-              "```lua",
-              "gui = create_gui()",
-              "",
-              "p = gui:attach_pulldown{x = 40, y=40, width=200}",
-              "",
-              "p:attach_pulldown_item{label = \"Thing 1\", action = function(self) end}",
-              "p:attach_pulldown_item{label = \"Thing 2\", action = function(self) end}",
-              "p:attach_pulldown_item{divider = true}",
-              "p:attach_pulldown_item{label = \"Toggle 3\", action = function(self) end}",
-              "",
-              "function _draw() cls() gui:draw_all() end",
-              "function _update() gui:update_all() end",
-              "```"
-            ],
-            "children": []
           }
         ]
       }
@@ -8307,6 +8187,126 @@
               "mousewheel event should propagate up to parent though (if not defined)",
               "",
               "horizontal bar (or generalise to 2d)"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/gui/methods/attach_pulldown_item/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "gui_el:attach_pulldown_item([attribs])",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Attach a pulldown item to a [pulldown element](/picotron_api/gui/methods/attach_pulldown/main.md)",
+              "",
+              "The height is automatically determined by the number of items.",
+              "",
+              "Pulldown items can also have unique attributes; the same thing used by menus created with [menuitem](/picotron_api/functions/menuitem/main.md):",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Attributes",
+            "content": [
+              ""
+            ],
+            "children": [
+              {
+                "level": 3,
+                "text": "`label`: string",
+                "content": [
+                  "Label for the element",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`shortcut`: string",
+                "content": [
+                  "",
+                  "Text on the right showing a keyboard shortcut (e.g. \"CTRL-A\")",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "`stay_open`: boolean",
+                "content": [
+                  "",
+                  "When true, the pulldown does not automatically close on selection",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Arguments",
+            "content": [
+              ""
+            ],
+            "children": [
+              {
+                "level": 3,
+                "text": "`[attribs]`: table",
+                "content": [
+                  "",
+                  "Generic GUI attributes alongside:",
+                  ""
+                ],
+                "children": [
+                  {
+                    "level": 4,
+                    "text": "`onclose`: function",
+                    "content": [
+                      "",
+                      "A callback function when the pulldown is closed/dismissed",
+                      ""
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Examples",
+            "content": [
+              "",
+              "Sourced from the [Picotron Manual](https://www.lexaloffle.com/dl/docs/picotron_manual.html)",
+              "",
+              "```lua",
+              "gui = create_gui()",
+              "",
+              "p = gui:attach_pulldown{x = 40, y=40, width=200}",
+              "",
+              "p:attach_pulldown_item{label = \"Thing 1\", action = function(self) end}",
+              "p:attach_pulldown_item{label = \"Thing 2\", action = function(self) end}",
+              "p:attach_pulldown_item{divider = true}",
+              "p:attach_pulldown_item{label = \"Toggle 3\", action = function(self) end}",
+              "",
+              "function _draw() cls() gui:draw_all() end",
+              "function _update() gui:update_all() end",
+              "```"
             ],
             "children": []
           }
@@ -9030,59 +9030,6 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/gui/callback_functions/event_callbacks/mousewheel/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "mousewheel",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Triggered when mouse wheel scrolls over this element.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "msg values",
-            "content": [
-              ""
-            ],
-            "children": [
-              {
-                "level": 3,
-                "text": "wheel_x",
-                "content": [
-                  "",
-                  "Amount the wheel was scrolled horizontally this frame.",
-                  ""
-                ],
-                "children": []
-              },
-              {
-                "level": 3,
-                "text": "wheel_y",
-                "content": [
-                  "",
-                  "Amount the wheel was scrolled vertically this frame"
-                ],
-                "children": []
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/picotron_api/gui/callback_functions/event_callbacks/release/main.md",
     "data": [
       {
@@ -9139,6 +9086,86 @@
                 "children": []
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/gui/callback_functions/event_callbacks/mousewheel/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "mousewheel",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Triggered when mouse wheel scrolls over this element.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "msg values",
+            "content": [
+              ""
+            ],
+            "children": [
+              {
+                "level": 3,
+                "text": "wheel_x",
+                "content": [
+                  "",
+                  "Amount the wheel was scrolled horizontally this frame.",
+                  ""
+                ],
+                "children": []
+              },
+              {
+                "level": 3,
+                "text": "wheel_y",
+                "content": [
+                  "",
+                  "Amount the wheel was scrolled vertically this frame"
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/gui/callback_functions/event_callbacks/hover/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "hover",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Triggered every frame if the mouse is hovering over this element *if* the mouse is not clicked.",
+              "",
+              "Note: You may not need this callback if you just want a custom element to change color on mouseover. For that, see [msg.has_pointer](../../event_callbacks/readme.md).",
+              ""
+            ],
+            "children": []
           }
         ]
       }
@@ -9235,33 +9262,6 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/gui/callback_functions/event_callbacks/hover/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "hover",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Triggered every frame if the mouse is hovering over this element *if* the mouse is not clicked.",
-              "",
-              "Note: You may not need this callback if you just want a custom element to change color on mouseover. For that, see [msg.has_pointer](../../event_callbacks/readme.md).",
-              ""
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/picotron_api/gui/callback_functions/event_callbacks/doubletap/main.md",
     "data": [
       {
@@ -9324,46 +9324,6 @@
           "Triggered on the first frame that a mouse button is pressed."
         ],
         "children": []
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/gui/attributes/z/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "z",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Element position along the z axis.",
-              "",
-              "Elements with a higher z value will appear on top of elements with a lower z value.",
-              "",
-              "Elements with the same z value will be drawn in order based on which one was added first - newer elements are drawn on top of older elements.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Values",
-            "content": [
-              "",
-              "Default value: 0",
-              "",
-              "Valid values: Any number"
-            ],
-            "children": []
-          }
-        ]
       }
     ]
   },
@@ -9438,11 +9398,11 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/gui/attributes/x/main.md",
+    "path": "/picotron_api/gui/attributes/z/main.md",
     "data": [
       {
         "level": 1,
-        "text": "x",
+        "text": "z",
         "content": [
           ""
         ],
@@ -9452,7 +9412,11 @@
             "text": "Overview",
             "content": [
               "",
-              "Element position along the x axis",
+              "Element position along the z axis.",
+              "",
+              "Elements with a higher z value will appear on top of elements with a lower z value.",
+              "",
+              "Elements with the same z value will be drawn in order based on which one was added first - newer elements are drawn on top of older elements.",
               ""
             ],
             "children": []
@@ -9489,6 +9453,42 @@
             "content": [
               "",
               "Element position along the y axis",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Values",
+            "content": [
+              "",
+              "Default value: 0",
+              "",
+              "Valid values: Any number"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/gui/attributes/x/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "x",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Element position along the x axis",
               ""
             ],
             "children": []
@@ -12124,6 +12124,8 @@
                       "* 5 - runtime, system version",
                       "     `runtime,system_version=stat(5)`",
                       "* 7 - operating fps (60, 30, 20, 15)",
+                      "* 64 - user_id of the currently logged in lexaloffle account",
+                      "* 65 - username of the currently logged in lexaloffle account",
                       "* 86 - epoch time",
                       "* 87 - timezone delta (seconds)",
                       "* 101 - web: player cart id (when playing a bbs cart; nil otherwise)",
@@ -12812,6 +12814,40 @@
     ]
   },
   {
+    "name": "readme.md",
+    "path": "/picotron_api/functions/socket/methods/readme.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "socket > methods",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "Sockets have special methods that can be used for interacting with the socket.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Methods",
+            "content": [
+              "",
+              "[accept](accept/main.md)"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "main.md",
     "path": "/picotron_api/functions/socket/methods/write/main.md",
     "data": [
@@ -12859,40 +12895,6 @@
             "content": [
               "",
               "An error message that is returned if there is an error; nil otherwise."
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "readme.md",
-    "path": "/picotron_api/functions/socket/methods/readme.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "socket > methods",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "Sockets have special methods that can be used for interacting with the socket.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Methods",
-            "content": [
-              "",
-              "[accept](accept/main.md)"
             ],
             "children": []
           }
@@ -14651,67 +14653,6 @@
   },
   {
     "name": "main.md",
-    "path": "/picotron_api/functions/pid/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "pid()",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "`pid` returns the process id of the process calling it.",
-              "",
-              "This is useful for communication between processes",
-              "",
-              "Source: [source.lua](source.lua)",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Usage Example",
-            "content": [
-              "",
-              "Using the filenav with the intention to save a file.",
-              "",
-              "```lua",
-              "create_process(\"/system/apps/filenav.p64\", {",
-              "    open_with = pid(), --shows the id of the process that opened it",
-              "    intention = \"save_file_as\",",
-              "    path=\"/desktop/\",",
-              "    use_ext=\"spr\",",
-              "    window_attribs = {",
-              "        workspace=\"current\",",
-              "        autoclose=true",
-              "    }",
-              "})",
-              "```",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Returns",
-            "content": [
-              "",
-              "The process ID"
-            ],
-            "children": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
     "path": "/picotron_api/functions/pod/main.md",
     "data": [
       {
@@ -14859,6 +14800,67 @@
               "?pod({a=1,b=2}, 0x7)",
               "unpod(\"b64:bHo0AAoAAAAJAAAAkHthPTEsYj0yfQ==\")",
               "```"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
+    "path": "/picotron_api/functions/pid/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "pid()",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "`pid` returns the process id of the process calling it.",
+              "",
+              "This is useful for communication between processes",
+              "",
+              "Source: [source.lua](source.lua)",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Usage Example",
+            "content": [
+              "",
+              "Using the filenav with the intention to save a file.",
+              "",
+              "```lua",
+              "create_process(\"/system/apps/filenav.p64\", {",
+              "    open_with = pid(), --shows the id of the process that opened it",
+              "    intention = \"save_file_as\",",
+              "    path=\"/desktop/\",",
+              "    use_ext=\"spr\",",
+              "    window_attribs = {",
+              "        workspace=\"current\",",
+              "        autoclose=true",
+              "    }",
+              "})",
+              "```",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Returns",
+            "content": [
+              "",
+              "The process ID"
             ],
             "children": []
           }
@@ -19743,6 +19745,64 @@
   },
   {
     "name": "main.md",
+    "path": "/picotron_api/functions/exit/main.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "exit(unknown)",
+        "content": [
+          ""
+        ],
+        "children": [
+          {
+            "level": 2,
+            "text": "Overview",
+            "content": [
+              "",
+              "`exit` immediately closes the program; this can be used to terminate a terminal program early.",
+              ""
+            ],
+            "children": []
+          },
+          {
+            "level": 2,
+            "text": "Arguments",
+            "content": [
+              ""
+            ],
+            "children": [
+              {
+                "level": 3,
+                "text": "`unknown`: unknown",
+                "content": [
+                  "",
+                  "Argument observed; seemingly useless.",
+                  ""
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "text": "Examples",
+            "content": [
+              "",
+              "Sourced from the [Picotron Manual](https://www.lexaloffle.com/dl/docs/picotron_manual.html)",
+              "",
+              "```lua",
+              "s = input(\"would you like to continue? [y/n] \")",
+              "if (s == \"n\") exit(0)",
+              "```"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "main.md",
     "path": "/picotron_api/functions/fetch/main.md",
     "data": [
       {
@@ -19865,64 +19925,6 @@
                 "children": []
               }
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "main.md",
-    "path": "/picotron_api/functions/exit/main.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "exit(unknown)",
-        "content": [
-          ""
-        ],
-        "children": [
-          {
-            "level": 2,
-            "text": "Overview",
-            "content": [
-              "",
-              "`exit` immediately closes the program; this can be used to terminate a terminal program early.",
-              ""
-            ],
-            "children": []
-          },
-          {
-            "level": 2,
-            "text": "Arguments",
-            "content": [
-              ""
-            ],
-            "children": [
-              {
-                "level": 3,
-                "text": "`unknown`: unknown",
-                "content": [
-                  "",
-                  "Argument observed; seemingly useless.",
-                  ""
-                ],
-                "children": []
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "text": "Examples",
-            "content": [
-              "",
-              "Sourced from the [Picotron Manual](https://www.lexaloffle.com/dl/docs/picotron_manual.html)",
-              "",
-              "```lua",
-              "s = input(\"would you like to continue? [y/n] \")",
-              "if (s == \"n\") exit(0)",
-              "```"
-            ],
-            "children": []
           }
         ]
       }
@@ -24686,6 +24688,23 @@
     ]
   },
   {
+    "name": "readme.md",
+    "path": "/information/readme.md",
+    "data": [
+      {
+        "level": 1,
+        "text": "Picotron Information",
+        "content": [
+          "",
+          "[Roadmap](roadmap.md)",
+          "",
+          "[What Is Picotron](whatis.md)"
+        ],
+        "children": []
+      }
+    ]
+  },
+  {
     "name": "main.md",
     "path": "/picotron_api/events/default_events/clear_key/main.md",
     "data": [
@@ -24751,23 +24770,6 @@
             "children": []
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "readme.md",
-    "path": "/information/readme.md",
-    "data": [
-      {
-        "level": 1,
-        "text": "Picotron Information",
-        "content": [
-          "",
-          "[Roadmap](roadmap.md)",
-          "",
-          "[What Is Picotron](whatis.md)"
-        ],
-        "children": []
       }
     ]
   },
@@ -25193,6 +25195,8 @@
             "content": [
               "",
               "[Creating a desktop background cartridge](https://youtu.be/iV6Ky3MOFT4)",
+              "",
+              "[Colour Tables; Transparency, Light and Shadows](https://www.youtube.com/watch?v=Z-0EU4DU6RE)",
               ""
             ],
             "children": []

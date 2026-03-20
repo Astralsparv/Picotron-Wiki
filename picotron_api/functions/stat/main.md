@@ -33,6 +33,8 @@ where c is a channel, addr is an address, n is a node:
 * 5 - runtime, system version
      `runtime,system_version=stat(5)`
 * 7 - operating fps (60, 30, 20, 15)
+* 64 - user_id of the currently logged in lexaloffle account
+* 65 - username of the currently logged in lexaloffle account
 * 86 - epoch time
 * 87 - timezone delta (seconds)
 * 101 - web: player cart id (when playing a bbs cart; nil otherwise)
