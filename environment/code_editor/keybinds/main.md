@@ -28,6 +28,12 @@ Redo the last change
 ### CTRL-F
 Search for text in the current tab
 
+### CTRL-G
+Jump to the next Search match in the current tab 
+
+### CTRL-H
+Jump to the next Search match in all currently open files
+
 ### CTRL-L
 Jump to a line number
 
