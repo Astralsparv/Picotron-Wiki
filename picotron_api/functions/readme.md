@@ -253,3 +253,5 @@ Kernel functions can be found [here](kernel/readme.md)
 [create_gui](create_gui/main.md)
 
 [assert](assert/main.md)
+
+[scoresub](scoresub/main.md)
