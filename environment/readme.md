@@ -12,11 +12,19 @@ Documentation on the Picotron environment/ecosystem
 
 ## Workspaces
 
+[Workspaces](/environment/workspaces/main.md)
+
 [Code Editor](code_editor/readme.md)
 
 [GFX Editor](gfx_editor/readme.md)
 
 [SFX Editor](sfx_editor/readme.md)
+
+## Files
+
+[Picotron Drive](drive/readme.md)
+
+[File Protocols](file_protocols/readme.md)
 
 ## Miscellaneous
 
@@ -28,8 +36,6 @@ Documentation on the Picotron environment/ecosystem
 
 [Saving](/environment/save/main.md)
 
-[Workspaces](/environment/workspaces/main.md)
-
 [Pausing](/environment/pause/main.md)
 
 [Host OS](/environment/host_os/main.md)
@@ -37,3 +43,5 @@ Documentation on the Picotron environment/ecosystem
 [Fast Quit](/environment/fast_quit/main.md)
 
 [Anywhen](/environment/anywhen/main.md)
+
+[Lexaloffle Online](lexaloffle_online/readme.md)
