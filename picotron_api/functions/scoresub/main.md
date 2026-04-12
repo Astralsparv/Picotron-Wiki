@@ -24,6 +24,10 @@ This means that it is not possible for a BBS cartridge to conflict with another 
 
 It has been recorded that if you have a persistent system, you are placed on different leaderboards than without a persistent system.
 
+You can do networking with scoresub, seen in @HowfWuff's [inuchat](https://www.lexaloffle.com/bbs/?tid=156091).
+
+@HowfWuff has created a library for this, found [here](https://www.lexaloffle.com/bbs/?tid=155740)
+
 #### Format
 BBS: `{bbs_id}-{table}`
 Local: (Presumably, testing needed.) `_{table}` or `{basename}_-{table}`
