@@ -26,7 +26,7 @@ In the future, it will be possible to apply for flp.io sub-domains that can be p
 
 Unsandboxed cartridges can freely read/write to podnet; not limited to `podnet://{userid}/appdata`, though it is suggested to remain in this location.
 
-It is advised that you should store any appdata in the bbs location (`podnet://{userid}/bbs/{cartid}/...`) so that your cart/others can easily access the data in your cart without it being spread between sandboxed & unsandboxed folders.
+It is advised that you should store any appdata in the bbs location (`podnet://{userid}/appdata/bbs/{cartid}/...`) so that your cart/others can easily access the data in your cart without it being spread between sandboxed & unsandboxed folders.
 
 ## Sandboxed (0.2.0c)
 
