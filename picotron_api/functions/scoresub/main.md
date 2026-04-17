@@ -2,7 +2,7 @@
 
 ## Overview
 
-Retrieve and optionally store scores in the online daatbase of lexaloffle.
+Retrieve and optionally store scores in the online daatbase of Lexaloffle.
 
 This requires the user to be logged in and online (even if you aren't submitting any data); whether the user is logged in or not can be checked with [`stat(64)`](/picotron_api/functions/stat/main.md).
 
@@ -24,9 +24,9 @@ This means that it is not possible for a BBS cartridge to conflict with another 
 
 It has been recorded that if you have a persistent system, you are placed on different leaderboards than without a persistent system.
 
-You can do networking with scoresub, seen in @HowfWuff's [inuchat](https://www.lexaloffle.com/bbs/?tid=156091).
+You can do networking with scoresub, seen in @HowfWuff's [inuchat](https://www.Lexaloffle.com/bbs/?tid=156091).
 
-@HowfWuff has created a library for this, found [here](https://www.lexaloffle.com/bbs/?tid=155740)
+@HowfWuff has created a library for this, found [here](https://www.Lexaloffle.com/bbs/?tid=155740)
 
 #### Format
 BBS: `{bbs_id}-{table}`
@@ -56,13 +56,13 @@ Each entry has the following fields:
 
 #### `user_id`: string
 
-The lexaloffle user id (unique to each user) of the player.
+The Lexaloffle user id (unique to each user) of the player.
 
 #### `username`: string
 
-The lexaloffle username of the player (this may change, use `user_id` for a unique identifier)
+The Lexaloffle username of the player (this may change, use `user_id` for a unique identifier)
 
-Each lexaloffle username is 3-16 characters, containing only letters, numbers and underscores.
+Each Lexaloffle username is 3-16 characters, containing only letters, numbers and underscores.
 
 #### `score`: number
 
@@ -74,5 +74,5 @@ A string, up to 1024 characters, that is attached to the entry
 
 #### `icon`: userdata u8
 
-The user's Picotron icon (different to their lexaloffle web icon; unique to Picotron).
+The user's Picotron icon (different to their Lexaloffle web icon; unique to Picotron).
 16x16 using colours 0-32.
