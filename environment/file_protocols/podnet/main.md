@@ -16,7 +16,7 @@ In the future, it will be possible to apply for flp.io sub-domains that can be p
 
 * 64MB soft limit of total storage (per [LXO user](/environment/lexaloffle_online/readme.md))
 * 256K file size
-* 1MB per sandboxed/bbs cartridge (0.2.0c)
+* 1MB per sandboxed/bbs cartridge
 * Cartridges are unable to be mounted; their metadata and icon is not available
 * Cartridges and lua programs are unable to be run thorugh `create_process`.
 * There is no read-access control and should not be used to store sensitive information
@@ -28,7 +28,7 @@ Unsandboxed cartridges can freely read/write to podnet; not limited to `podnet:/
 
 It is advised that you should store any appdata in the bbs location (`podnet://{userid}/appdata/bbs/{cartid}/...`) so that your cart/others can easily access the data in your cart without it being spread between sandboxed & unsandboxed folders.
 
-## Sandboxed (0.2.0c)
+## Sandboxed
 
 Sandboxed cartridges are able to make limited writes to podnet in `podnet://{userid}/appdata/bbs/{bbsid}/...`, writes to `podnet://{userid}/appdata` are **not** automatically put into this new location like in the local filesystem.
 
