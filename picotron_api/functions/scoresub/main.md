@@ -62,6 +62,8 @@ The lexaloffle user id (unique to each user) of the player.
 
 The lexaloffle username of the player (this may change, use `user_id` for a unique identifier)
 
+Each lexaloffle username is 3-16 characters, containing only letters, numbers and underscores.
+
 #### `score`: number
 
 The score of the player
