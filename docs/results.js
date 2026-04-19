@@ -14,7 +14,7 @@ function pushResults(results,query){
         container.appendChild(h2);
     }else{
         var h2=document.createElement('h2');
-        h2.innerHTML=`No results :c<br>Want to <a href="https://github.com/Astralsparv/Picotron-Wiki/blob/main/documenting.md">document it</a>?`;
+        h2.innerHTML=`No results :c<br>Want to <a href="viewer?link=documenting.md&pagename=Documenting">document it</a>?`;
         container.appendChild(h2);
     }
     for (i=results.length-1; i>=0; i--){
@@ -23,7 +23,7 @@ function pushResults(results,query){
         
         var title=document.createElement('a');
         title.textContent=results[i].title;
-        let url=new URL("docs/viewer/",window.location.origin);
+        let url=new URL("/Picotron-Wiki/docs/viewer/",window.location.origin);
         url.searchParams.set('link',results[i].path);
         url.searchParams.set('pagename',results[i].title);
         title.href=url.toString();
