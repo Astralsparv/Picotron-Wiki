@@ -51,7 +51,7 @@ fetch(link)
         md=md.replace(/^[\u200B\u200C\u200D\u200E\u200F\uFEFF]/,"");
         page.innerHTML=marked.parse(md);
         let a=page.getElementsByTagName('a');
-        for (i=0; i<a.length; i++){
+        for (let i=0; i<a.length; i++){
             let href = a[i].getAttribute('href');
 
             if (!href) continue;
@@ -62,8 +62,12 @@ fetch(link)
             ) continue;
             if (href.endsWith(".md")){ // is md file; should be rendered through page
                 href=href.replace(/^\/+/, "");
-                let url= new URL("/Picotron-Wiki/viewer/",window.location.origin);
-                url.searchParams.set('link',href);
+                const resolved = new URL(href, dirname(rawlink)).pathname.replace(/^\/+/, "");
+
+                let url = new URL("/Picotron-Wiki/viewer/", window.location.origin);
+                url.searchParams.set('link', resolved);
+                url.searchParams.set('pagename',resolved.split('/').pop().replace(/\.md$/, ""));
+
                 a[i].href=url.href;
             }else{
                 a[i].href=new URL(href, "https://raw.githubusercontent.com/Astralsparv/Picotron-Wiki/refs/heads/main/" + dirname(rawlink)).href;
