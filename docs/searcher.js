@@ -142,8 +142,7 @@ function search(q){
         //let parts=path.split("/");
         //parts=parts.slice(-2);
         //const title=`${parts[0]}/${parts[1]}`;
-        let title=path;
-        title=title.substring(1,title.length);
+        let title = path.split('/').slice(0,-1).pop();
 
         const matchesPath = path.match(new RegExp(q, "g"));
         if (matchesPath){

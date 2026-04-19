@@ -23,7 +23,10 @@ function pushResults(results,query){
         
         var title=document.createElement('a');
         title.textContent=results[i].title;
-        title.href=`https://github.com/Astralsparv/Picotron-Wiki/tree/main${results[i].path}`
+        let url=new URL("docs/viewer/",window.location.origin);
+        url.searchParams.set('link',results[i].path);
+        url.searchParams.set('pagename',results[i].title);
+        title.href=url.toString();
         title.classList='title';
         
         var relevance=document.createElement('p');

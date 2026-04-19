@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">README</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="prismjs/prism.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="top">
+        <a class="h1" href="/docs/">Picotron Wiki</a>
+        <form onsubmit="openQuery(event);">
+            <input type="text" id="query" placeholder="search something!" autocomplete="off" spellcheck="false">
+            <input type="submit" id="submit" value="Search">
+        </form>
+    </div>
+
+    <div id="page"></div>
+
+    <script src="marked.min.js"></script>
+    <script src="index.js"></script>
+    <script src="searcher.js"></script>
+    <script src="prismjs/prism.js"></script>
+    <script src="prismjs/prism-lua.min.js"></script>
+</body>
+</html>

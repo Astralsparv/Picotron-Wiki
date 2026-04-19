@@ -8,10 +8,13 @@ The official Picotron Wiki cart has been released on the [bbs](https://www.lexal
 
 Information on contribution to documentation is [here](documenting.md)
 
-## Search Engine
+## Web viewer
 
-There is a search engine for the Picotron Wiki.
+There is a web viewer for the Picotron Wiki.
+
 It can be found [here](https://astralsparv.github.io/Picotron-Wiki/)
+
+This now includes rendering pages without going to github; search engine embedded!
 
 ## Picotron Information
 
