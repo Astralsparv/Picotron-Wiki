@@ -63,7 +63,8 @@ fetch(link)
             if (href.endsWith(".md")){ // is md file; should be rendered through page
                 href=href.replace(/^\/+/, "");
                 let url = new URL("/Picotron-Wiki/viewer/", window.location.origin);
-                url.searchParams.set('link', href);
+                let base=rawlink||""
+                url.searchParams.set('link', dirname(base)+'/'+href);
                 url.searchParams.set('pagename',href.split('/').pop().replace(/\.md$/, ""));
 
                 a[i].href=url.href;
