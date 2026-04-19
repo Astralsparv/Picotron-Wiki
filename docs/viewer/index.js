@@ -31,6 +31,7 @@ if (!link.endsWith(".md")) {
 }
 
 function dirname(url) {
+    if (url==null){ url="README.md" };
     return url.substring(0, url.lastIndexOf('/') + 1);
 }
 
