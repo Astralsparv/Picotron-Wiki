@@ -62,11 +62,9 @@ fetch(link)
             ) continue;
             if (href.endsWith(".md")){ // is md file; should be rendered through page
                 href=href.replace(/^\/+/, "");
-                const resolved = new URL(href, dirname(rawlink)).pathname.replace(/^\/+/, "");
-
                 let url = new URL("/Picotron-Wiki/viewer/", window.location.origin);
-                url.searchParams.set('link', resolved);
-                url.searchParams.set('pagename',resolved.split('/').pop().replace(/\.md$/, ""));
+                url.searchParams.set('link', href);
+                url.searchParams.set('pagename',href.split('/').pop().replace(/\.md$/, ""));
 
                 a[i].href=url.href;
             }else{
