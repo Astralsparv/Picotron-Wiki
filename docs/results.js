@@ -23,7 +23,7 @@ function pushResults(results,query){
         
         var title=document.createElement('a');
         title.textContent=results[i].title;
-        let url=new URL("/Picotron-Wiki/docs/viewer/",window.location.origin);
+        let url=new URL("/Picotron-Wiki/viewer",window.location.origin);
         url.searchParams.set('link',results[i].path);
         url.searchParams.set('pagename',results[i].title);
         title.href=url.toString();
