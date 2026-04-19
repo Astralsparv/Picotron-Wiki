@@ -60,12 +60,13 @@ fetch(link)
                 href.startsWith('#') ||
                 href.startsWith('http')
             ) continue;
-            if (href.endsWith("md")){ // is md file; should be rendered through page
-                let url= new URL("/Picotron-Wiki/viewer");
+            if (href.endsWith(".md")){ // is md file; should be rendered through page
+                href=href.replace(/^\/+/, "");
+                let url= new URL("/Picotron-Wiki/viewer/",window.location.origin);
                 url.searchParams.set('link',href);
-                a[i].href=url.toString();
+                a[i].href=url.href;
             }else{
-                a[i].href=a[i].href = new URL(href, "https://raw.githubusercontent.com/Astralsparv/Picotron-Wiki/refs/heads/main/" + dirname(rawlink)).href;
+                a[i].href=new URL(href, "https://raw.githubusercontent.com/Astralsparv/Picotron-Wiki/refs/heads/main/" + dirname(rawlink)).href;
             }
         }
 

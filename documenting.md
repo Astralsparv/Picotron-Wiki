@@ -5,7 +5,7 @@
 If you would like to add documentation to the Picotron Wiki, please:
 * create a pull request
 * contact me through `@astralsparv` on discord.
-* make a post on the [lexaloffle BBS post](https://www.lexaloffle.com/bbs/?pid=143916)
+* make a post on the [lexaloffle BBS post](https://www.lexaloffle.com/bbs/?tid=154532)
 
 ## How to format pages
 
