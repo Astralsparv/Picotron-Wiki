@@ -60,7 +60,7 @@ fetch(link)
                 href.startsWith('#') ||
                 href.startsWith('http')
             ) continue;
-            a[i].href=a[i].href = new URL(href, "https://raw.githubusercontent.com/Astralsparv/Picotron-Wiki/refs/heads/main" + dirname(rawlink)).href;
+            a[i].href=a[i].href = new URL(href, "https://raw.githubusercontent.com/Astralsparv/Picotron-Wiki/refs/heads/main/" + dirname(rawlink)).href;
         }
 
         Prism.languages.lua = Prism.languages.extend('lua', {});
