@@ -60,7 +60,13 @@ fetch(link)
                 href.startsWith('#') ||
                 href.startsWith('http')
             ) continue;
-            a[i].href=a[i].href = new URL(href, "https://raw.githubusercontent.com/Astralsparv/Picotron-Wiki/refs/heads/main/" + dirname(rawlink)).href;
+            if (href.endsWith("md")){ // is md file; should be rendered through page
+                let url= new URL("/Picotron-Wiki/viewer");
+                url.searchParams.set('link',href);
+                a[i].href=url.toString();
+            }else{
+                a[i].href=a[i].href = new URL(href, "https://raw.githubusercontent.com/Astralsparv/Picotron-Wiki/refs/heads/main/" + dirname(rawlink)).href;
+            }
         }
 
         Prism.languages.lua = Prism.languages.extend('lua', {});
