@@ -49,6 +49,9 @@ fetch(link)
     })
     .then(md => {
         md=md.replace(/^[\u200B\u200C\u200D\u200E\u200F\uFEFF]/,"");
+        let giturl=link.toString();
+        giturl=giturl.replace('https://raw.githubusercontent.com/Astralsparv/Picotron-Wiki/refs/heads/main/','https://github.com/Astralsparv/Picotron-Wiki/blob/main/');
+        md=`[Open this page in Github](${giturl})\n\n`+md;
         page.innerHTML=marked.parse(md);
         let a=page.getElementsByTagName('a');
         for (let i=0; i<a.length; i++){
