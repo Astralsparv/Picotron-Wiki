@@ -2,7 +2,7 @@
 
 ## Overview
 
-`fstat` returns information about the requested file: the type, size and the origin of the .
+`fstat` returns information about the requested file: the type, size and the origin of the file.
 
 ## Arguments
 
