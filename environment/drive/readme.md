@@ -16,7 +16,7 @@ This can be edited in the config file.
 
 ### `/system`
 
-This is the system for Pictron, containing the lua-sid e API functions, wm, pm and other files for the system to run.
+This is the system for Pictron, containing the lua-side API functions, wm, pm and other files for the system to run.
 
 This, by default, is unmodifiable; but can be modified through [system patching and system persistence](/system/persistence/main.md).
 
