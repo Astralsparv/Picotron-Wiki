@@ -65,3 +65,5 @@ load -u #cart_id
 ```
 
 You can also use the system app Splore by entering `splore` in the terminal which lets you search, open and download BBS cartridges.
+
+More information on the `bbs://` protocol can be found [here](/environment/file_protocols/bbs/).
