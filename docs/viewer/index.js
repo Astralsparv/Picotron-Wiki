@@ -61,8 +61,11 @@ fetch(link)
 
             if (
                 href.startsWith('#') ||
-                href.startsWith('http')
+                href.startsWith('http');
             ) continue;
+            if (href.endsWith("/")){ // is readme.md
+                href=href + "readme.md";
+            }
             if (href.endsWith(".md")){ // is md file; should be rendered through page
                 href=href.replace(/^\/+/, "");
                 let url = new URL("/Picotron-Wiki/viewer/", window.location.origin);
