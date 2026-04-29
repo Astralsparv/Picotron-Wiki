@@ -61,7 +61,7 @@ fetch(link)
 
             if (
                 href.startsWith('#') ||
-                href.startsWith('http');
+                href.startsWith('http')
             ) continue;
             if (href.endsWith("/")){ // is readme.md
                 href=href + "readme.md";
