@@ -66,11 +66,17 @@ fetch(link)
             if (href.endsWith("/")){ // is readme.md
                 href=href + "readme.md";
             }
+            let starts=href.startsWith('/');
             if (href.endsWith(".md")){ // is md file; should be rendered through page
                 href=href.replace(/^\/+/, "");
                 let url = new URL("/Picotron-Wiki/viewer/", window.location.origin);
-                let base=rawlink||""
-                url.searchParams.set('link', dirname(base)+'/'+href);
+                if (starts){
+                    url.searchParams.set('link', '/'+href);
+                }else{
+                    console.log(href + ' does not start wtih');
+                    let base=rawlink||""
+                    url.searchParams.set('link', dirname(base)+'/'+href);
+                }
                 url.searchParams.set('pagename',href.split('/').pop().replace(/\.md$/, ""));
 
                 a[i].href=url.href;
@@ -91,6 +97,7 @@ fetch(link)
     })
     .catch(error => {
         alert("Houston, we got a problem. See console for error logs")
+        console.log('URL: ' + link);
         console.error('Error processing MD file:', error);
     }
 );
