@@ -44,7 +44,8 @@ where c is a channel, addr is an address, n is a node:
 * 151 - web: stat(150) up to the end of the window.location.pathname
 * 152 - web: window.location.host
 * 153 - web: window.location.hash
-* 301 - total CPU usage
+* 301 - total CPU usage?
+* 304 - system CPU usage
 * 302, keycode - returns human readable name for the keycode, surface [SDL's GetKeyName](https://wiki.libsdl.org/SDL2/SDL_GetKeyName)
 * 305 - Whether any key is pressed
 * 307 - 1.0 if current working path is `/system` (including if the cartridge is located in `/system/`)
