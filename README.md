@@ -16,6 +16,12 @@ It can be found [here](https://astralsparv.github.io/Picotron-Wiki/)
 
 This now includes rendering pages without going to github; search engine embedded!
 
+## Implementing the wiki in your app
+
+The Picotron Wiki is designed to be portable and able to be used in other people's apps.
+
+To implement the Picotron Wiki, you may find the [implementation](implementation.md) page useful.
+
 ## Picotron Information
 
 Information on Picotron can be found [here](information/whatis.md)
