@@ -35,6 +35,12 @@ Paste selection
 ### CTRL-B
 Paste at 2x the size
 
+### CTRL-H
+Toggle Hex and Decimal sprite index view
+
+### CTRL-G
+Toggle pixel grid on canvas below a certain zoom level
+
 ### TAB
 Toggle the RH pane
 
@@ -58,3 +64,12 @@ Flip the selection horizontally
 
 ### V
 Flip the selection vertically
+
+### L 
+Mark start and end sprite index of an animation
+
+### W
+Move forward through set animation
+
+### Q
+Move backwards through set animation
