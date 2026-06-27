@@ -1,4 +1,4 @@
-# deli(table,[index]): any
+# deli(table,[index]): element
 
 ## Overview
 
