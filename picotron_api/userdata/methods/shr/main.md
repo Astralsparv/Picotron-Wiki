@@ -1,7 +1,7 @@
 # shr(lhs, rhs, [dest], [read_start], [write_start], [group_size], [read_increment], [write_increment], [group_count]): written
 
 ## Overview
-Bitshifts elements in the left hand side to the right by elements in the right hand side.
+Bitshifts elements in the left hand side to the right by elements in the right hand side. If the underlying type of `lhs` is unsigned, this will be a logical shift. If the type is signed, it will be an arithmetic shift.
 
 This function uses the userdata operator signature. Read the [bulk operations](/picotron_api/userdata/readme.md/#bulk-operations) section of the userdata documentation for a detailed explanation of how the arguments work.
 
