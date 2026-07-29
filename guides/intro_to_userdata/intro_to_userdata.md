@@ -16,7 +16,7 @@ With so many bullets, a simple approach can eat up our entire CPU, so this gives
 
 ![A bullet hell with rainbow bullets](./assets/userdata_version.gif)
 
-[The demo is playable on the BBS](https://www.lexaloffle.com/bbs/edit.php?pid=193745).
+[The demo is playable on the BBS](https://www.lexaloffle.com/bbs/?tid=158363).
 
 [The demo cart's source code is availible as well](https://github.com/yournameplease/picotron-demos/tree/main/intro_to_userdata/bullet_system_demo.p64).
 The example code shared is slightly different for better readability, but the general design is the same.
