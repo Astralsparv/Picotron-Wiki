@@ -22,12 +22,12 @@ With so many bullets, a simple approach can eat up our entire CPU, so this gives
 The example code shared is slightly different for better readability, but the general design is the same.
 Both a userdata and non-userdata bullet system are included, so you can experiment with both.
 
-Also, be sure to check out the [wiki's userdata pages](https://github.com/Astralsparv/Picotron-Wiki/tree/main/picotron_api/userdata).
+Also, be sure to check out the [wiki's userdata pages](/picotron_api/userdata).
 These will go into more depth than is covered in this guide.
 
 ## What is Userdata?
 
-[Userdata](https://www.lexaloffle.com/dl/docs/picotron_manual.html#Userdata) is a fixed-size 1D or 2D array that can store numeric values.
+[Userdata](/picotron_api/userdata/readme.md) is a fixed-size 1D or 2D array that can store numeric values.
 Two features of userdata will be of great importance to our purposes:
 
 1. Userdata allows for [batched arithmetic operations](https://www.lexaloffle.com/dl/docs/picotron_manual.html#Userdata_Operations).
@@ -89,10 +89,10 @@ Multiplication is batched at 16 operations per cycle, and subtraction at 24 per 
 
 The way we create and access userdatas differ as well.
 
-To create a userdata, you call [`userdata(type, width, height, [data])`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/functions/userdata/main.md).
+To create a userdata, you call [`userdata(type, width, height, [data])`](/picotron_api/functions/userdata/main.md).
 Since we have a list of 3 numbers, we passed width as 3 and height as 1 for a 1D array.
 
-We could also use [`userdata:set(x, val)`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/set/main.md) like so:
+We could also use [`userdata:set(x, val)`](/picotron_api/userdata/methods/set/main.md) like so:
 
 ```lua
 local a = userdata("f64", 3)
@@ -101,7 +101,7 @@ a:set(1, 5.0)
 a:set(2, 6.0)
 ```
 
-Or use use [`userdata:set(x, val0, val1, ...)`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/set/main.md) to set multiple values at once:
+Or use use [`userdata:set(x, val0, val1, ...)`](/picotron_api/userdata/methods/set/main.md) to set multiple values at once:
 
 ```lua
 local a = userdata("f64", 3)
@@ -110,7 +110,7 @@ a:set(0,
 )
 ```
 
-To read our values, we can use [`userdata:get(x)`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/get/main.md):
+To read our values, we can use [`userdata:get(x)`](/picotron_api/userdata/methods/get/main.md):
 
 ```lua
 local a_0 = a:get(0) -- 4.0
@@ -118,7 +118,7 @@ local a_1 = a:get(1) -- 5.0
 local a_2 = a:get(2) -- 7.0
 ```
 
-Or use [`userdata:get(x, n)`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/get/main.md#userdatageti-count-) to read multiple values:
+Or use [`userdata:get(x, n)`](/picotron_api/userdata/methods/get/main.md#userdatageti-count-) to read multiple values:
 
 ```lua
 local a_0, a_1, a_2 = a:get(0, 3) -- 4.0, 5.0, 6.0
@@ -296,7 +296,7 @@ the last bullet will be at the row with `y = bullets_count - 1`.
 
 ### Spawning bullets
 
-To spawn a bullet, we can use [`userdata:set(x, y, val0, ...)`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/set/main.md#userdatasetcolumn-row-):
+To spawn a bullet, we can use [`userdata:set(x, y, val0, ...)`](/picotron_api/userdata/methods/set/main.md#userdatasetcolumn-row-):
 
 ```lua
 function spawn_bullet(b)
@@ -320,7 +320,7 @@ function spawn_bullet(b)
 end
 ```
 
-Alternatively, we can use [`userdata:set(x, y, val0, ...)`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/set/main.md#userdatasetcolumn-row-), though this is a bit harder to read, and will need to update if we rearrange the columns:
+Alternatively, we can use [`userdata:set(x, y, val0, ...)`](/picotron_api/userdata/methods/set/main.md#userdatasetcolumn-row-), though this is a bit harder to read, and will need to update if we rearrange the columns:
 
 ```lua
 function spawn_bullet(b)
@@ -392,11 +392,11 @@ userdata:op(src, dest, src_offset, dest_offset, len, src_stride, dest_stride, sp
 ```
 
 `op` is any operation, such as
-[`add`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/add/main.md),
-[`mul`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/mul/main.md),
-[`sub`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/sub/main.md),
-[`div`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/div/main.md), and
-[`pow`](https://github.com/Astralsparv/Picotron-Wiki/blob/main/picotron_api/userdata/methods/pow/main.md), to name a few.
+[`add`](/picotron_api/userdata/methods/add/main.md),
+[`mul`](/picotron_api/userdata/methods/mul/main.md),
+[`sub`](/picotron_api/userdata/methods/sub/main.md),
+[`div`](/picotron_api/userdata/methods/div/main.md), and
+[`pow`](/picotron_api/userdata/methods/pow/main.md), to name a few.
 
 We'll refer to the userdata being operated on as LHS (left hand side).
 
