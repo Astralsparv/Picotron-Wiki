@@ -37,21 +37,25 @@ A 16 bit number with the first 8 bits (low byte) being the normal colour; and th
 When true, the bar disappears when there is nothing to scroll
 
 ## Example
-
+This example creates a small gui, adds a parent container to be scrolled along with a child container that draws the numbers 0-99 in it's 
+draw function. Lastly it attaches scrollbars to the parent container. 
 ```lua
-g = create_gui()
-my_container = g:attach(my_container_attribs)
-my_container:attach(my_contents)
-my_container:attach_scrollbars()
-```
-
-To allow mousewheel scrolling, you still need to process messages from contents as such:
-
-```lua
-function contents:mousewheel(msg)
-    self.y += msg.wheel_y * 32 -- scroll speed is arbitrary
+function _init()
+gui=create_gui()
+parent_container = gui:attach{ width=20, height=50,	x=0, y=0,	}
+child_container = parent_container:attach{
+	width = 20, height =100*10,	x = 0, y = 0, 
+	draw=function()
+		for x=0,99 do print(x,0,x*10,7) end
+	end
+	}
+parent_container:attach_scrollbars()
 end
+
+function _update() gui:update_all() end
+function _draw()cls() gui:draw_all() end
 ```
+
 
 ## Future
 
