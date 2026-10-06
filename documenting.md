@@ -1,3 +1,5 @@
+# Please see the [new wiki source](https://git.astralsparv.cc/astralsparv/Picotron-Wiki/src/branch/main/documenting.md)
+
 # Documenting the Picotron Wiki
 
 ## AI Notice
