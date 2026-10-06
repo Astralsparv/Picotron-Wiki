@@ -1,3 +1,5 @@
+# The Github wiki source is no longer being maintained. It has moved to [git.astralsparv.cc](https://git.astralsparv.cc/astralsparv/Picotron-Wiki), hosted by yours truly and reducing the amount that can be trained on by AI slop machines.
+
 # Picotron Wiki
 
 ## Wiki Information
